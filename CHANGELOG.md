@@ -9,6 +9,7 @@
 - Changed the number of `Frontend` cards from 5 to 4
 - Added one more `Error` card
 - Better wordings and more complete rules in `ru/`
+- Addressed printing issues in card design
 
 ## Version 0.0.1
 
