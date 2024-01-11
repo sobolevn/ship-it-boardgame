@@ -12,7 +12,9 @@
 - Increased the number of `Research` from 2 to 3
 - Reworked the `Reuse` card into `Garbage collector`,
   now there are 3 `Garbage collector` cards. It used to be 2 `Reuse` cards
-- Better wordings and more complete rules in `ru/`
+- Moved the social interaction from `Bug` to `Specific bug`
+- Social interactions are reworked to have more replayability
+- Better wordings and more complete rules
 - Addressed printing issues in card design
 
 ## Version 0.0.1
