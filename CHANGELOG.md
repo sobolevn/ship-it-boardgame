@@ -1,5 +1,14 @@
 # Changes
 
+## Version 0.0.3
+
+- Moved `DDoS` and `Supply chain` to `Meta` category
+- Added `Nope` card to `Meta` category
+- Added `sudo` category
+- Changed the number of defence and attack cards
+- Changed the number of event cards
+- Now `Architecture` cards will have different back cover
+
 ## Version 0.0.2
 
 - Added new card `Hacker's paws`
