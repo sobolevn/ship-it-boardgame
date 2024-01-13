@@ -5,9 +5,13 @@
 - Moved `DDoS` and `Supply chain` to `Meta` category
 - Added `Nope` card to `Meta` category
 - Added `sudo` category
+- Added `Critical security issue` card
 - Changed the number of defence and attack cards
 - Changed the number of event cards
 - Now `Architecture` cards will have different back cover
+- Reworked social interactions for `Garbage collector`
+- Added explicit card type name for all cards
+- Small rules adjustments
 
 ## Version 0.0.2
 
@@ -29,3 +33,5 @@
 ## Version 0.0.1
 
 - Initial release
+
+Printed (1 deck)!
