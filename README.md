@@ -32,3 +32,8 @@ It is also quite similar to https://www.explodingkittens.com in some aspects.
 ## LICENSE
 
 [CC BY-NC-SA 4.0](https://github.com/sobolevn/ship-it-boardgame/blob/master/LICENSE)
+
+TLDR:
+- You can print it and play with your friends for free!
+- You can fork and change it (attribution and same license required)
+- You cannot sell it, it would not be fair
