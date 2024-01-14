@@ -1,5 +1,19 @@
 # Changes
 
+## Version 0.0.4
+
+- Increased the maximum amount of players to 5 people
+- Removed `DDoS` card
+- Added `New release` card
+- Removed any noticed of "Exchange" mechanics from the rules
+- Reworked `OpenSource` card
+- Reworked `Orchestrator` card
+- Renamed `[Critical] Security issue` to `[Critical] Vulnerability`
+- Clarified rules about `sudo`
+- Changed several social interactions
+- Changed how social interactions should be regulated
+- Changed the amount of multiple cards: now there should be more defence
+
 ## Version 0.0.3
 
 - Moved `DDoS` and `Supply chain` to `Meta` category
