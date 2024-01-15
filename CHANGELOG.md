@@ -3,12 +3,13 @@
 ## Version 0.0.4
 
 - Increased the maximum amount of players to 5 people
-- Removed `DDoS` card
+- Removed `Merge` card
 - Added `New release` card
-- Removed any noticed of "Exchange" mechanics from the rules
+- Removed any notices of "Exchange" mechanics from the rules
 - Reworked `OpenSource` card
 - Reworked `Orchestrator` card
 - Renamed `[Critical] Security issue` to `[Critical] Vulnerability`
+- Reworked `Nope` card, it no longer works against deployment components
 - Clarified rules about `sudo`
 - Changed several social interactions
 - Changed how social interactions should be regulated
@@ -26,6 +27,8 @@
 - Reworked social interactions for `Garbage collector`
 - Added explicit card type name for all cards
 - Small rules adjustments
+
+Printed (1 deck)!
 
 ## Version 0.0.2
 
