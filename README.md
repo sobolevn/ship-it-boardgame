@@ -31,7 +31,7 @@ It is also quite similar to https://www.explodingkittens.com in some aspects.
 
 ## Attributions
 
-Thanks a lot to my friends, who helped me with ideas, testing, and rules
+Thanks a lot to my friends, who helped me with ideas, testing, and rules.
 
 ## LICENSE
 

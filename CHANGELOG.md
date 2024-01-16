@@ -1,5 +1,10 @@
 # Changes
 
+## Version 0.0.5
+
+- Specify how `Cloud` works
+- Do not use word "deploy" on cards, it was very complex for non-IT people
+
 ## Version 0.0.4
 
 - Increased the maximum amount of players to 5 people
@@ -14,7 +19,10 @@
 - Changed several social interactions
 - Changed how social interactions should be regulated
 - Changed the amount of multiple cards: now there should be more defence
+- Now all cards note their count in the deck
 - Social interaction is no longer optional
+
+Printed (2 decks)!
 
 ## Version 0.0.3
 
