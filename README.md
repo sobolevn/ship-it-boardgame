@@ -29,6 +29,10 @@ which motivated me to invent my own game in a similar setting.
 
 It is also quite similar to https://www.explodingkittens.com in some aspects.
 
+## Attributions
+
+Thanks a lot to my friends, who helped me with ideas, testing, and rules
+
 ## LICENSE
 
 [CC BY-NC-SA 4.0](https://github.com/sobolevn/ship-it-boardgame/blob/master/LICENSE)

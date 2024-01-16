@@ -14,6 +14,7 @@
 - Changed several social interactions
 - Changed how social interactions should be regulated
 - Changed the amount of multiple cards: now there should be more defence
+- Social interaction is no longer optional
 
 ## Version 0.0.3
 
