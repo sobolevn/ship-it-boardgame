@@ -1,5 +1,7 @@
 # Ship IT!
 
+[![Telegram chat](https://img.shields.io/badge/chat-join-blue?logo=telegram)](https://t.me/ship_it_boardgame)
+
 Boardgame for people working in IT.
 It is built for fun, social interactions, memes, and a little bit of strategy.
 
