@@ -35,6 +35,8 @@ It is also quite similar to https://www.explodingkittens.com in some aspects.
 
 Thanks a lot to my friends, who helped me with ideas, testing, and rules.
 
+Please, add yourself to `AUTHORS` if you contributed in anyway :)
+
 ## LICENSE
 
 [CC BY-NC-SA 4.0](https://github.com/sobolevn/ship-it-boardgame/blob/master/LICENSE)
