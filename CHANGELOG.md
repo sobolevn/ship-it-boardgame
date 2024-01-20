@@ -6,6 +6,7 @@
 - Changed card design, make them easier to read in your hand
 - Renamed `Critical vulnerability` to `Specific vulnerability`
 - Renamed `Nope` to `Cancel`
+- Changed the amount of `DDoS` cards from 2 to 3
 - Clarified how `Cloud` works
 - Clarified that `Cancel` cancels the whole card
 - Made reaction cards explicit
