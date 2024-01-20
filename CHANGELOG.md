@@ -9,7 +9,7 @@
 - Changed the amount of `DDoS` cards from 2 to 3
 - Clarified how `Cloud` works
 - Clarified that `Cancel` cancels the whole card
-- Made reaction cards explicit
+- Made reaction cards explicit: now they have a special ♻️ sign
 - Added jokes to "Architecture" cards
 - Improved multiple wordings
 - Removed "deploy" word from cards, it was very complex for non-IT people
