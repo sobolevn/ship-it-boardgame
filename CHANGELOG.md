@@ -2,8 +2,16 @@
 
 ## Version 0.0.5
 
-- Specify how `Cloud` works
-- Do not use word "deploy" on cards, it was very complex for non-IT people
+- Removed `Cache` card: it was not balanced for `Application` architecture
+- Changed card design, make them easier to read in your hand
+- Renamed `Critical vulnerability` to `Specific vulnerability`
+- Renamed `Nope` to `Cancel`
+- Clarified how `Cloud` works
+- Clarified that `Cancel` cancels the whole card
+- Made reaction cards explicit
+- Added jokes to "Architecture" cards
+- Improved multiple wordings
+- Removed "deploy" word from cards, it was very complex for non-IT people
 
 ## Version 0.0.4
 
