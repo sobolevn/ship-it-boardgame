@@ -2,7 +2,7 @@
 
 [![Telegram chat](https://img.shields.io/badge/chat-join-blue?logo=telegram)](https://t.me/ship_it_boardgame)
 
-Boardgame for people working in IT.
+Boardgame for people who love IT.
 It is built for fun, social interactions, memes, and a little bit of strategy.
 
 No real IT skills are required to play this game :)
@@ -13,8 +13,8 @@ This is the earliest release of the game.
 
 What I still have to do:
 - [ ] Understand how to easily print it
-- [ ] Play it myself, make others play it
-- [ ] Collect feedback, please create GitHub issues for any feedback
+- [x] Play it myself, make others play it
+- [ ] Collect feedback (please create GitHub issues for any feedback)
 - [ ] Improve the game: the wording, balance, some mechanics
 - [ ] Work on branding: logo, card design, etc
 - [ ] Translate the better version of it into english
