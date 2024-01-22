@@ -2,6 +2,9 @@
 
 ## Version 0.0.6
 
+- Improved rules' wordings
+- Added schemas for how cards should be on the table
+
 ## Version 0.0.5
 
 - Removed `Cache` card: it was not balanced for `Application` architecture
