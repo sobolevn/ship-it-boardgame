@@ -1,5 +1,7 @@
 # Changes
 
+## Version 0.0.6
+
 ## Version 0.0.5
 
 - Removed `Cache` card: it was not balanced for `Application` architecture
@@ -13,6 +15,8 @@
 - Added jokes to "Architecture" cards
 - Improved multiple wordings
 - Removed "deploy" word from cards, it was very complex for non-IT people
+
+Printed (1 deck)!
 
 ## Version 0.0.4
 
