@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-01-22T14:48:23.764Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" etag="WWL1tpAAveYc8ny_ziUN" version="22.1.21" type="github">
+<mxfile host="app.diagrams.net" modified="2024-01-22T15:06:56.690Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:121.0) Gecko/20100101 Firefox/121.0" etag="Anmx2xT8d0WGYKeCv9FT" version="22.1.21" type="github">
   <diagram name="Page-1" id="2a216829-ef6e-dabb-86c1-c78162f3ba2b">
-    <mxGraphModel dx="2165" dy="1495" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="680" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1155" dy="797" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="600" pageHeight="680" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -26,12 +26,6 @@
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="10" y="980" as="sourcePoint" />
             <mxPoint x="40" y="650" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="KSVDCKiWn12W3mHN9LhD-10" value="" style="endArrow=none;dashed=1;html=1;dashPattern=1 3;strokeWidth=2;rounded=0;strokeColor=none;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="300" y="1320" as="sourcePoint" />
-            <mxPoint x="610" y="1320" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="KSVDCKiWn12W3mHN9LhD-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="KSVDCKiWn12W3mHN9LhD-11">
@@ -64,33 +58,54 @@
         <mxCell id="KSVDCKiWn12W3mHN9LhD-15" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Описание карты&lt;/font&gt;" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="1180" y="430" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KSVDCKiWn12W3mHN9LhD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="KSVDCKiWn12W3mHN9LhD-17">
+        <mxCell id="KSVDCKiWn12W3mHN9LhD-18" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="KSVDCKiWn12W3mHN9LhD-17">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="820" y="940" as="targetPoint" />
+            <mxPoint x="490" y="830" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="750" />
+              <mxPoint x="490" y="750" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KSVDCKiWn12W3mHN9LhD-17" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Социальное взаимодействие&lt;br&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="880" width="230" height="120" as="geometry" />
+          <mxGeometry x="1180" y="780" width="230" height="120" as="geometry" />
         </mxCell>
         <mxCell id="KSVDCKiWn12W3mHN9LhD-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="KSVDCKiWn12W3mHN9LhD-19">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="180" y="1140" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1030" y="970" />
+              <mxPoint x="1030" y="1090" />
+              <mxPoint x="180" y="1090" />
+            </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KSVDCKiWn12W3mHN9LhD-19" value="&lt;font style=&quot;font-size: 25px;&quot;&gt;Разыгрывается как реакция&lt;br&gt;&lt;/font&gt;" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1010" width="230" height="120" as="geometry" />
+          <mxGeometry x="1180" y="910" width="230" height="120" as="geometry" />
         </mxCell>
-        <mxCell id="KSVDCKiWn12W3mHN9LhD-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="KSVDCKiWn12W3mHN9LhD-20">
+        <mxCell id="KSVDCKiWn12W3mHN9LhD-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="KSVDCKiWn12W3mHN9LhD-20">
           <mxGeometry relative="1" as="geometry">
-            <mxPoint x="830" y="1210" as="targetPoint" />
+            <mxPoint x="910" y="1180" as="targetPoint" />
             <Array as="points">
-              <mxPoint x="1295" y="1270" />
-              <mxPoint x="831" y="1270" />
+              <mxPoint x="1100" y="1100" />
+              <mxPoint x="1100" y="1180" />
             </Array>
           </mxGeometry>
         </mxCell>
         <mxCell id="KSVDCKiWn12W3mHN9LhD-20" value="&lt;div&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Количество карт&amp;nbsp;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;в колоде&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
-          <mxGeometry x="1180" y="1140" width="230" height="120" as="geometry" />
+          <mxGeometry x="1180" y="1040" width="230" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="KSVDCKiWn12W3mHN9LhD-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;strokeWidth=3;" edge="1" parent="1" source="KSVDCKiWn12W3mHN9LhD-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="490" y="1260" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="1295" y="1330" />
+              <mxPoint x="491" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KSVDCKiWn12W3mHN9LhD-25" value="&lt;div&gt;&lt;font style=&quot;font-size: 25px;&quot;&gt;Шутка&lt;/font&gt;&lt;/div&gt;" style="html=1;whiteSpace=wrap;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="1180" y="1174" width="230" height="120" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
