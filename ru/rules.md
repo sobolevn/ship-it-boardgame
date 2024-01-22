@@ -7,7 +7,7 @@
 
 ## Карты
 
-![пример карты](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/card-example.png)
+![пример карты](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/schemas/card.jpg)
 
 Карты бывают следующих типов:
 - Архитектура (белые) – ваше задание на игру для победы
