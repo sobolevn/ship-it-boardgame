@@ -5,7 +5,9 @@
 - Improved rules' wordings
 - Now using `draw.io` for schemas
 - Added schemas for how cards should be on the table
-- Improved card schema
+- Improved `Microservices`'s joke rendering
+- Improved wordings on some cards
+- Improved card's schema
 
 ## Version 0.0.5
 
