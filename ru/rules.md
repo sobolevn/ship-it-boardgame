@@ -44,7 +44,7 @@
 
 ## Ход игры
 
-![пример стола](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/schemas/table.jpg)
+![пример стола](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/schemas/schemas.jpg)
 
 В начале каждого хода необходимо взять карту из колоды.
 Далее у вас есть два варианта.
