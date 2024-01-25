@@ -7,6 +7,7 @@
 - Added schemas for how cards should be on the table
 - Improved `Microservices`'s joke rendering
 - Improved wordings on some cards
+- Now `Critical error` has a new social interaction
 - Improved card's schema
 
 ## Version 0.0.5
