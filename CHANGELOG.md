@@ -2,17 +2,20 @@
 
 ## Version 0.0.6
 
-- Improved rules' wordings
-- Now using `draw.io` for schemas
-- Added schemas for how cards should be on the table
-- Increased the number of `sudo` and `Cancel` cards
+- Added `Redirect` meta card
 - Added `Manual` meta optional card
 - Removed `Research` card
+- Increased the number of `sudo` and `Cancel` cards by 1
+- Decreased the number of `Cloud` cards by 1
+- Decreased the number of `Not a bug` cards by 1
 - Buffed `OpenSource` card
 - Improved `Microservices`'s joke rendering
 - Improved wordings on some cards
 - Now `Critical error` has a new social interaction
 - Improved card's schema
+- Improved rules' wordings
+- Now using `draw.io` for schemas
+- Added schemas for how cards should be on the table
 
 ## Version 0.0.5
 
