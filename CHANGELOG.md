@@ -17,6 +17,8 @@
 - Now using `draw.io` for schemas
 - Added schemas for how cards should be on the table
 
+Printed (26 decks)!
+
 ## Version 0.0.5
 
 - Removed `Cache` card: it was not balanced for `Application` architecture
