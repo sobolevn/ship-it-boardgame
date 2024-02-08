@@ -1,5 +1,15 @@
 # Changes
 
+## Version 0.0.7
+
+- Added the hand limit
+- Changed `+ sudo?` part on all cards to be `$`
+- Added icons to the `Cloud` card, so you can tell what card it replaces
+- Fixed `Cloud` wording and updated its rules
+- Updated `game-process.schema` to include `Cloud`
+- Added the game name to the cards' back
+- Updated `rule-card` to include Telegram link
+
 ## Version 0.0.6
 
 - Added `Redirect` meta card
