@@ -1,0 +1,16 @@
+general:
+  first_player: Алисы
+  second_player: Бориса
+  hand: Рука
+  table: Стол
+  hidden_card: Закрытая карта
+  reset: Сброс
+  card:
+    attack:
+      name: Атака
+      types:
+        error: Ошибка
+    component:
+      name: Компонент
+      types:
+        internal_process: Бекенд
