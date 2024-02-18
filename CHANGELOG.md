@@ -9,6 +9,8 @@
 - Added `Deadline` event card
 - Specified the starting player
 - Added icons to the `Cloud` card, so you can tell what card it replaces
+- Added `Error` and `Vulnerability` icons
+- Highlighted card types in the descriptions
 - Fixed `Cloud` wording and updated its rules
 - Updated `game-process.schema` to include `Cloud` and `Architecture` cards
 - Updated `rule-card` to include Telegram link
