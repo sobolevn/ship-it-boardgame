@@ -2,13 +2,26 @@
 
 ## Version 0.0.7
 
+- Added the game logo
+- Added the short rules summary card
 - Added the hand limit
-- Changed `+ sudo?` part on all cards to be `$`
+- Added the mechanic to draw cards when your hand is empty
+- Added `Deadline` event card
+- Specified the starting player
 - Added icons to the `Cloud` card, so you can tell what card it replaces
 - Fixed `Cloud` wording and updated its rules
-- Updated `game-process.schema` to include `Cloud`
-- Added the game name to the cards' back
+- Updated `game-process.schema` to include `Cloud` and `Architecture` cards
 - Updated `rule-card` to include Telegram link
+- Fixed multiple card wordings
+- Decreased the amount of `500` and `Friday` cards by 1
+- Decreased the amount of `sudo` and `Cancel` cards by 1
+- Increased the amount of `RFC` cards by 1
+- Decreased the amount of `CI` cards by 1
+- Removed social pseudo-interaction from `Critical error`
+- Changed `+ sudo?` part on all cards to be `$`
+- Moved special ♻️ sign of reaction cards to the top
+- Changed `Application`'s joke
+- Changed `Frontend`'s social interaction
 
 ## Version 0.0.6
 
