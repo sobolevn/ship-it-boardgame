@@ -39,6 +39,20 @@ Thanks a lot to my friends, who helped me with ideas, testing, and rules.
 
 Please, add yourself to `AUTHORS` if you contributed in anyway :)
 
+## Render Schemas Locally
+
+To render the schemas locally you just need a working [Docker](https://www.docker.com) installation:
+```shell
+# Run required services to render
+docker compose up -d
+
+# Tells our renderer service to render everything
+docker exec -it ship-it-boardgame-renderer-1 python render.py
+
+# Teardown the renderer environment
+docker compose down --remove-orphans
+```
+
 ## LICENSE
 
 [CC BY-NC-SA 4.0](https://github.com/sobolevn/ship-it-boardgame/blob/master/LICENSE)

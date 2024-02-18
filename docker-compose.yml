@@ -1,0 +1,20 @@
+version: '3'
+services:
+  renderer:
+    build:
+      dockerfile: Dockerfile
+    depends_on:
+      image-export:
+        condition: service_healthy
+    volumes:
+      - "./render.py:/app/render.py"
+      - "./ru:/app/ru"
+  image-export:
+    image: jgraph/export-server
+    healthcheck:
+      test: [ "CMD-SHELL", "if [ $(curl -o /dev/null -s -w '%{http_code}\n' http://localhost:8000) -ne '400' ]; then exit 1; fi;" ]
+      interval: 2s
+      timeout: 5s
+      retries: 5
+    ports:
+      - "8000:8000"
