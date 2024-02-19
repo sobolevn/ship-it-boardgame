@@ -1,0 +1,26 @@
+name: test
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  test-schemas:
+    runs-on: ubuntu-latest
+    name: Test if schemas were generated
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: isbang/compose-action@v1.5.1
+        with:
+          up-flags: "--build"
+          down-flags: "--volumes"
+
+      - name: Generate images
+        run: docker exec -i ship-it-boardgame-renderer-1 python render.py
+
+      - name: Verify diff
+        run: git diff --exit-code
