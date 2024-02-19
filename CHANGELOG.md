@@ -15,15 +15,21 @@
 - Updated `game-process.schema` to include `Cloud` and `Architecture` cards
 - Updated `rule-card` to include Telegram link
 - Fixed multiple card wordings
+- Added new effect to `500` and `0 day`
 - Decreased the amount of `500` and `Friday` cards by 1
 - Decreased the amount of `sudo` and `Cancel` cards by 1
+- Decreased the amount of `DDoS` by 1
 - Increased the amount of `RFC` cards by 1
 - Decreased the amount of `CI` cards by 1
 - Removed social pseudo-interaction from `Critical error`
+- Remove social interaction from `0 day`
 - Changed `+ sudo?` part on all cards to be `$`
 - Moved special ♻️ sign of reaction cards to the top
 - Changed `Application`'s joke
 - Changed `Frontend`'s social interaction
+- Changed `Meta` cards' color from yellow to brown
+
+Printed (12 decks)!
 
 ## Version 0.0.6
 
