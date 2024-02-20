@@ -1,7 +1,9 @@
 # Вопросы и ответы
 
 Нет ответа на ваш вопрос?
-Напишите в наш чат: [![Telegram chat](https://img.shields.io/badge/chat-join-blue?logo=telegram)](https://t.me/ship_it_boardgame)
+Напишите в наш чат: 
+
+[![Telegram chat](https://img.shields.io/badge/chat-join-blue?logo=telegram)](https://t.me/ship_it_boardgame)
 
 ## Как разыгрываются карты атаки?
 
