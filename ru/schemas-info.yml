@@ -1,16 +1,64 @@
-general:
-  first_player: Алисы
-  second_player: Бориса
-  hand: Рука
-  table: Стол
+card:
+  architecture:
+    name: Архитектура
+  attack:
+    name: Атака
+    types:
+      error: Ошибка
+  certificate:
+    name: Сертификат
+  component:
+    name: Компонент
+    types:
+      backend: Бекенд
+      frontend: Фронтенд
+      internal_process: Бекенд
+      monitoring: Мониторинг
+      cloud: Облако
+  defense:
+    name: Защита
+    types:
+      escape: Отговорка
+
+attack:
+  first_player_hand: Рука Алисы
+  first_player_table: Стол Алисы
+  second_player_hand: Рука Бориса
   hidden_card: Закрытая карта
   reset: Сброс
-  card:
-    attack:
-      name: Атака
-      types:
-        error: Ошибка
-    component:
-      name: Компонент
-      types:
-        internal_process: Бекенд
+
+card_info:
+  card_type:
+    description: Тип карты
+    example: Защита
+  special_attribute:
+    description: Можно использовать с картой &quot;sudo&quot;
+    example: $
+  card_name:
+    description: Название карты
+    example: Отговорка
+  card_bonus:
+    description: Разыгрывается как реакция
+    example: TODO
+  card_description:
+    description: Описание карты
+    example: Реакцией защититесь от ошибки
+  card_interaction:
+    description: Социальное взаимодействие
+    example: TODO
+  card_counter:
+    description: Количество карт в колоде
+    example: 3 карты
+  card_joke:
+    description: Шутка
+
+game_process:
+  first_player_hand: Рука Алисы
+  first_player_table: Стол Алисы
+  second_player_hand: Рука Бориса
+  second_player_table: Стол Бориса
+  hidden_card: Закрытая карта
+  hidden_cards: Закрытые карты
+  reset: Сброс
+  deck: Колода
+
