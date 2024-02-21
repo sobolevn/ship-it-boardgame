@@ -24,7 +24,7 @@ attack:
   first_player_table: Стол Алисы
   second_player_hand: Рука Бориса
   hidden_card: Закрытая карта
-  reset: Сброс
+  discard: Сброс
 
 card_info:
   card_type:
@@ -58,6 +58,6 @@ game_process:
   second_player_table: Стол Бориса
   hidden_card: Закрытая карта
   hidden_cards: Закрытые карты
-  reset: Сброс
+  discard: Сброс
   deck: Колода
 

@@ -58,7 +58,7 @@
         <mxCell id="dYky7ozjCTGvR8onbQTt-61" value="&lt;div&gt;{{ game_process.hidden_cards }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=90;" parent="dYky7ozjCTGvR8onbQTt-58" vertex="1">
           <mxGeometry x="10" y="-1" width="200" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="dYky7ozjCTGvR8onbQTt-41" value="{{ game_process.reset }}" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
+        <mxCell id="dYky7ozjCTGvR8onbQTt-41" value="{{ game_process.discard }}" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="1004.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
         <mxCell id="kVKbn-yuMC2sfHe30jHJ-8" value="Мета" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#fff2cc;strokeColor=#d6b656;" parent="dYky7ozjCTGvR8onbQTt-41" vertex="1">
