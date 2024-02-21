@@ -22,7 +22,7 @@
         <mxCell id="kVKbn-yuMC2sfHe30jHJ-10" value="CI" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="3" vertex="1">
           <mxGeometry x="62.5" y="182" width="200" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="kVKbn-yuMC2sfHe30jHJ-12" value="&lt;div&gt;{{ card.certificate.name }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="kVKbn-yuMC2sfHe30jHJ-10" vertex="1">
+        <mxCell id="kVKbn-yuMC2sfHe30jHJ-12" value="&lt;div&gt;{{ card.defense.types.certificate }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;fillColor=#dae8fc;strokeColor=#6c8ebf;" parent="kVKbn-yuMC2sfHe30jHJ-10" vertex="1">
           <mxGeometry x="-24" width="200" height="122" as="geometry" />
         </mxCell>
         <mxCell id="dYky7ozjCTGvR8onbQTt-59" value="&lt;div&gt;{{ card.component.name }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;fillColor=#e1d5e7;strokeColor=#9673a6;" parent="kVKbn-yuMC2sfHe30jHJ-12" vertex="1">
