@@ -7,10 +7,10 @@
         <mxCell id="2" value="{{ attack.first_player_hand }}" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="444.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="dYky7ozjCTGvR8onbQTt-42" value="&lt;div&gt;{{ attack.hidden_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;" parent="2" vertex="1">
+        <mxCell id="dYky7ozjCTGvR8onbQTt-42" value="&lt;div&gt;{{ attack.face_down_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;" parent="2" vertex="1">
           <mxGeometry x="40" y="102" width="200" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="dYky7ozjCTGvR8onbQTt-43" value="&lt;div&gt;{{ attack.hidden_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;" parent="2" vertex="1">
+        <mxCell id="dYky7ozjCTGvR8onbQTt-43" value="&lt;div&gt;{{ attack.face_down_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=-180;" parent="2" vertex="1">
           <mxGeometry x="40" y="225" width="200" height="122" as="geometry" />
         </mxCell>
         <mxCell id="3" value="{{ attack.first_player_table }}" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
@@ -31,10 +31,10 @@
         <mxCell id="dYky7ozjCTGvR8onbQTt-74" value="{{ attack.second_player_hand }}" style="swimlane;whiteSpace=wrap" parent="1" vertex="1">
           <mxGeometry x="1284.5" y="128" width="280" height="570" as="geometry" />
         </mxCell>
-        <mxCell id="dYky7ozjCTGvR8onbQTt-75" value="&lt;div&gt;{{ attack.hidden_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=0;" parent="dYky7ozjCTGvR8onbQTt-74" vertex="1">
+        <mxCell id="dYky7ozjCTGvR8onbQTt-75" value="&lt;div&gt;{{ attack.face_down_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=0;" parent="dYky7ozjCTGvR8onbQTt-74" vertex="1">
           <mxGeometry x="40" y="102" width="200" height="122" as="geometry" />
         </mxCell>
-        <mxCell id="dYky7ozjCTGvR8onbQTt-76" value="&lt;div&gt;{{ attack.hidden_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=0;" parent="dYky7ozjCTGvR8onbQTt-74" vertex="1">
+        <mxCell id="dYky7ozjCTGvR8onbQTt-76" value="&lt;div&gt;{{ attack.face_down_card }}&lt;/div&gt;" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=0;" parent="dYky7ozjCTGvR8onbQTt-74" vertex="1">
           <mxGeometry x="40" y="225" width="200" height="122" as="geometry" />
         </mxCell>
         <mxCell id="RGcuCvIUBXCjisr0QKUh-6" value="{{ card.attack.name }}" style="swimlane;horizontal=0;whiteSpace=wrap;html=1;rotation=0;fillColor=#f8cecc;strokeColor=#b85450;" parent="dYky7ozjCTGvR8onbQTt-74" vertex="1">
