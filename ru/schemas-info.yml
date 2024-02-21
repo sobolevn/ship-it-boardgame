@@ -12,7 +12,6 @@ card:
     types:
       backend: Бекенд
       frontend: Фронтенд
-      internal_process: Бекенд
       monitoring: Мониторинг
       cloud: Облако
   defense:
