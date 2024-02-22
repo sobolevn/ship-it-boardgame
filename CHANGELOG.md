@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.8
+
+- Tweak some wordings
+
 ## Version 0.0.7
 
 - Added the game logo
