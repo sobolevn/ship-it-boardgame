@@ -2,7 +2,7 @@
 
 ## Version 0.0.8
 
-- Tweak some wordings
+- Tweak some cards' wordings
 
 ## Version 0.0.7
 
