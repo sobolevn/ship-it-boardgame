@@ -7,6 +7,7 @@
 - Decreased the amount of `Open Source` cards by 1
 - Tweaked some cards' wordings
 - Tweaked rules for a bit
+- Added `+ component` icon to `CI` and `Certificate`
 
 ## Version 0.0.7
 
