@@ -2,7 +2,11 @@
 
 ## Version 0.0.8
 
-- Tweak some cards' wordings
+- Reworked `P2P` card: renamed old one into `Cherrypick`
+- Added new `P2P` card
+- Decreased the amount of `Open Source` cards by 1
+- Tweaked some cards' wordings
+- Tweaked rules for a bit
 
 ## Version 0.0.7
 
