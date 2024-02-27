@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "ship-it-tools"
+version = "0.0.8"
+description = "Internal tools we use for the game development"
+authors = ["sobolevn <mail@sobolevn.me>"]
+license = "CC BY-NC-SA 4.0"
+classifiers = [
+  "Private :: Do not Upload",
+]
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+numbers-parser = "^4.9.4"
+pypdfium2 = "^4.27.0"
+pillow = "^10.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
