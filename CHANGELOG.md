@@ -8,6 +8,7 @@
 - Tweaked some cards' wordings
 - Tweaked rules for a bit
 - Added `+ component` icon to `CI` and `Certificate`
+- Improved multiple jokes
 
 ## Version 0.0.7
 
