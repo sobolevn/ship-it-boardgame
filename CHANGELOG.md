@@ -4,10 +4,12 @@
 
 - Reworked `P2P` card: renamed old one into `Cherrypick`
 - Added new `P2P` card
+- Buffed `Orchestrator` cards
 - Decreased the amount of `Open Source` cards by 1
+- Added `+ component` icon to `CI` and `Certificate`
+- Changed `Frontend`'s social interaction, once again
 - Tweaked some cards' wordings
 - Tweaked rules for a bit
-- Added `+ component` icon to `CI` and `Certificate`
 - Improved multiple jokes
 
 ## Version 0.0.7
