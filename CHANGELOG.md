@@ -2,10 +2,13 @@
 
 ## Version 0.0.8
 
+- Added new buffs ⚙️ for some cards when you have deployed components
 - Reworked `P2P` card: renamed old one into `Cherrypick`
 - Added new `P2P` card
-- Buffed `Orchestrator` cards
-- Decreased the amount of `Open Source` cards by 1
+- Added new `Burnout` card
+- Buffed `Orchestrator` card
+- Decreased the number of `Orchestrator` cards by 1
+- Increased `Cancel` cards by 1
 - Added `+ component` icon to `CI` and `Certificate`
 - Changed `Frontend`'s social interaction, once again
 - Tweaked some cards' wordings
