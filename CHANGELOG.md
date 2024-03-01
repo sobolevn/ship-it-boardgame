@@ -7,6 +7,7 @@
 - Reworked `P2P` card completely
 - Added new `Burnout` card
 - Buffed `Orchestrator` card
+- Added new effect to `Hacker's paws` when there are no deployed components
 - Decreased the number of `Orchestrator` cards by 1
 - Increased `Cancel` cards by 1
 - Added `⚙️` icon to `CI` and `Certificate` to indicate how they are played
