@@ -3,8 +3,8 @@
 ## Version 0.0.8
 
 - Added new buffs ⚙️ for some cards when you have deployed components
-- Reworked `P2P` card: renamed old one into `Cherrypick`
-- Added new `P2P` card
+- Added new `Cherrypick` card
+- Reworked `P2P` card completely
 - Added new `Burnout` card
 - Buffed `Orchestrator` card
 - Decreased the number of `Orchestrator` cards by 1
