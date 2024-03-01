@@ -9,7 +9,7 @@
 - Buffed `Orchestrator` card
 - Decreased the number of `Orchestrator` cards by 1
 - Increased `Cancel` cards by 1
-- Added `+ component` icon to `CI` and `Certificate`
+- Added `⚙️` icon to `CI` and `Certificate` to indicate how they are played
 - Changed `Frontend`'s social interaction, once again
 - Tweaked some cards' wordings
 - Tweaked rules for a bit
