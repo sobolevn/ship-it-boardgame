@@ -9,16 +9,22 @@ It is built for fun, social interactions, memes, and a little bit of strategy.
 
 No real IT skills are required to play this game :)
 
+## Play
+
+- Order a physical copy: [mail@sobolevn.me](mailto:mail@sobolevn.me)
+- [Online via Table Top Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3172213526)
+
 ## TODO
 
 This is the earliest release of the game.
 
 What I still have to do:
-- [ ] Understand how to easily print it
+- [x] Understand how to easily print it
 - [x] Play it myself, make others play it
 - [ ] Collect feedback (please create GitHub [issues](https://github.com/sobolevn/ship-it-boardgame/issues) or [discussions](https://github.com/sobolevn/ship-it-boardgame/discussions) for any feedback)
 - [ ] Improve the game: the wording, balance, some mechanics
 - [x] Work on branding: logo, card design, etc
+- [x] Create tooling to be able to use [Table Top Simulator]() for playtests
 - [ ] Translate the better version of it into english
 - [ ] Maybe even publish it officially
 
