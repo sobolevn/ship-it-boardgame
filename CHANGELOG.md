@@ -5,14 +5,17 @@
 - Added new buffs ⚙️ for some cards when you have deployed components
 - Added new `Cherrypick` card
 - Added new `Legacy` card
+- Added new `Eventbus` card
 - Reworked `P2P` card completely
 - Added new `Burnout` card
 - Buffed `Orchestrator` card
 - Added new effect to `Hacker's paws` when there are no deployed components
 - Decreased the number of `Orchestrator` cards by 1
 - Increased `Cancel` cards by 2
-- Decreased `Supply chain cards by 1
-- Added `⚙️` icon to `CI` and `Certificate` to indicate how they are played
+- Decreased `Supply chain` cards by 1
+- Increased `Hype` cards by 1
+- Decreased `Hacker's paws` cards by 1
+- Added ⚙️ icon to `CI` and `Certificate` to indicate how they are played
 - Changed `Frontend`'s social interaction, once again
 - Tweaked some cards' wordings
 - Tweaked rules for a bit
