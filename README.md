@@ -14,6 +14,10 @@ No real IT skills are required to play this game :)
 - Order a physical copy: [mail@sobolevn.me](mailto:mail@sobolevn.me)
 - [Online via Table Top Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3172213526)
 
+## Rules and languages
+
+- [Russian](https://github.com/sobolevn/ship-it-boardgame/blob/master/ru/rules.md) 🇷🇺
+
 ## TODO
 
 This is the earliest release of the game.
