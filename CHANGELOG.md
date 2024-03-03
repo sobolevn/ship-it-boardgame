@@ -15,6 +15,7 @@
 - Decreased `Supply chain` cards by 1
 - Increased `Hype` cards by 1
 - Decreased `Hacker's paws` cards by 1
+- Added `Queue` icon to `Cloud` card
 - Added ⚙️ icon to `CI` and `Certificate` to indicate how they are played
 - Changed `Frontend`'s social interaction, once again
 - Tweaked some cards' wordings
