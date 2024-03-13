@@ -1,0 +1,8 @@
+version: 2
+updates:
+- package-ecosystem: pip
+  directory: "/tools"
+  schedule:
+    interval: daily
+    time: "02:00"
+  open-pull-requests-limit: 10
