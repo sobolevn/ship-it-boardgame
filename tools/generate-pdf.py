@@ -55,7 +55,7 @@ def _write_cards_with_counts(
         output_dir = os.path.dirname(output_file)
         if output_dir:
             os.makedirs(output_dir, exist_ok=True)
-        with open(output_file, mode='wb') as output:
+        with open(output_file, mode="wb") as output:
             dest_pdf.save(output)
 
 
@@ -63,19 +63,19 @@ def main() -> None:
     """Run the script."""
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        'cards',
-        type=argparse.FileType(mode='rb'),
-        help='Path to original cards PDF file exported from `cards.numbers`',
+        "cards",
+        type=argparse.FileType(mode="rb"),
+        help="Path to original cards PDF file exported from `cards.numbers`",
     )
     parser.add_argument(
-        'counts',
+        "counts",
         type=str,  # TODO: use `filepath` type
-        help='Path to `counts.numbers` file with card counts',
+        help="Path to `counts.numbers` file with card counts",
     )
     parser.add_argument(
-        '--output-file',
+        "--output-file",
         type=str,  # TODO: dirname
-        help='output location',
+        help="output location",
         required=True,
     )
     parsed_args = parser.parse_args()
@@ -86,5 +86,5 @@ def main() -> None:
     )
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
