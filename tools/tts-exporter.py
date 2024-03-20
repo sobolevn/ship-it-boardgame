@@ -42,12 +42,12 @@ def _create_filename(
             raise FileNotFoundError
         cover_dir = os.path.join(
             os.path.dirname(image_dir),
-            'covers',
+            "covers",
         )
         if filename >= NUM_OF_ARCH_CARDS:
-            return os.path.join(cover_dir, 'cover_dark.png')
-        return os.path.join(cover_dir, 'cover_white.png')
-    return os.path.join(image_dir, f'{filename}.jpg')
+            return os.path.join(cover_dir, "cover_dark.png")
+        return os.path.join(cover_dir, "cover_white.png")
+    return os.path.join(image_dir, f"{filename}.jpg")
 
 
 def _create_sheet(
@@ -61,37 +61,46 @@ def _create_sheet(
     for image in range(TTS_FORMAT * (sheet + 1)):
         filename = image + TTS_FORMAT * sheet
         try:
-            current_image = Image.open(_create_filename(
-                filename,
-                image_dir,
-                files_count,
-                is_back=is_back,
-            ))
+            current_image = Image.open(
+                _create_filename(
+                    filename,
+                    image_dir,
+                    files_count,
+                    is_back=is_back,
+                )
+            )
         except FileNotFoundError:
             break
         if dest_image is None:
-            dest_image = Image.new('RGB', (
-                current_image.width * TTS_WIDTH,
-                current_image.height * TTS_HEIGHT,
-            ))
-        dest_image.paste(current_image, (
-            current_image.width * (image % TTS_WIDTH),
-            current_image.height * (image // TTS_WIDTH),
-        ))
+            dest_image = Image.new(
+                "RGB",
+                (
+                    current_image.width * TTS_WIDTH,
+                    current_image.height * TTS_HEIGHT,
+                ),
+            )
+        dest_image.paste(
+            current_image,
+            (
+                current_image.width * (image % TTS_WIDTH),
+                current_image.height * (image // TTS_WIDTH),
+            ),
+        )
         current_image.close()
 
     # Resize to be 10k pixels max:
-    wpercent = (TTS_MAX_SIZE / dest_image.size[0])
+    wpercent = TTS_MAX_SIZE / dest_image.size[0]
     hsize = int(dest_image.size[1] * wpercent)
+    filename_suffix = "back" if is_back else "front"
     dest_image.resize(
         (TTS_MAX_SIZE, hsize),
         Image.Resampling.LANCZOS,
-    ).save(os.path.join('build', 'tts', f'{sheet}-{int(is_back)}.jpg'))
+    ).save(os.path.join("build", "tts", f"{sheet}-{filename_suffix}.jpg"))
     dest_image.close()
 
 
 def _create_tts_images(image_dir: str) -> None:
-    output_dir = os.path.join('build', 'tts')
+    output_dir = os.path.join("build", "tts")
     os.makedirs(output_dir, exist_ok=True)
 
     files_count = _count_files(image_dir)
@@ -105,9 +114,9 @@ def main() -> None:
     """Run the script."""
     parser = argparse.ArgumentParser()
     parser.add_argument(
-        'images_dir',
+        "images_dir",
         type=str,  # TODO: dirname
-        help='Folder with all card types images',
+        help="Folder with all card types images",
     )
     # parser.add_argument(
     #     '--local-build',
@@ -118,5 +127,5 @@ def main() -> None:
     _create_tts_images(parsed_args.images_dir)
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
     main()
