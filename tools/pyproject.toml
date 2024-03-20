@@ -17,6 +17,15 @@ pypdfium2 = "^4.27.0"
 pillow = "^10.2.0"
 
 
+[tool.ruff]
+line-length = 80
+fix = true
+
+[tool.ruff.lint]
+select = ['F', 'I']
+fixable = ['ALL']
+
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

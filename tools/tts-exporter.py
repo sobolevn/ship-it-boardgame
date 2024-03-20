@@ -83,10 +83,11 @@ def _create_sheet(
     # Resize to be 10k pixels max:
     wpercent = (TTS_MAX_SIZE / dest_image.size[0])
     hsize = int(dest_image.size[1] * wpercent)
+    filename_suffix = 'back' if is_back else 'front'
     dest_image.resize(
         (TTS_MAX_SIZE, hsize),
         Image.Resampling.LANCZOS,
-    ).save(os.path.join('build', 'tts', f'{sheet}-{int(is_back)}.jpg'))
+    ).save(os.path.join('build', 'tts', f'{sheet}-{filename_suffix}.jpg'))
     dest_image.close()
 
 
