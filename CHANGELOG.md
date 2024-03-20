@@ -22,6 +22,9 @@
 - Tweaked rules for a bit
 - Improved multiple jokes
 - Added Table Top Simulator support and docs
+- Improved short rules card
+
+Printed (5 decks)!
 
 ## Version 0.0.7
 
