@@ -24,7 +24,7 @@
 - Added Table Top Simulator support and docs
 - Improved short rules card
 
-Printed (5 decks)!
+Printed (9 decks)!
 
 ## Version 0.0.7
 
