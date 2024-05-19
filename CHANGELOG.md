@@ -5,7 +5,7 @@
 - Added new `Agile` card
 - Clarified `Legacy` rules
 - Clarified `Redirect` rules
-- Simplified `Monitoring` and `Firewall` rules: they now interact with `sudo`
+- Simplified `Monitoring` and `Firewall` rules: they now don't interact with `sudo`
 - Tweaked `Frontend` social interaction, again
 - Tweaked some minor wordings on multiple cards
 - Tweaked multiple other social interactions a bit
