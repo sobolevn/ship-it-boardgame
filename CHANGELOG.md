@@ -15,7 +15,7 @@
 - Added new buffs ⚙️ for some cards when you have deployed components
 - Added new `Cherrypick` card
 - Added new `Legacy` card
-- Added new `Eventbus` card
+- Added new `Queue` card
 - Reworked `P2P` card completely
 - Added new `Burnout` card
 - Buffed `Orchestrator` card
