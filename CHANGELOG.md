@@ -1,5 +1,13 @@
 # Changes
 
+## Version 0.0.9
+
+- Added new `Agile` card
+- Clarified `Legacy` rules
+- Tweaked `Frontend` social interaction, again
+
+Printed (9 decks)!
+
 ## Version 0.0.8
 
 - Added new buffs ⚙️ for some cards when you have deployed components
