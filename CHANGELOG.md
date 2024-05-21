@@ -6,9 +6,12 @@
 - Clarified `Legacy` rules
 - Clarified `Redirect` rules
 - Simplified `Monitoring` and `Firewall` rules: they now don't interact with `sudo`
+- Changed `Supply chain` card: it does not have ⚙️ effect anymore
 - Tweaked `Frontend` social interaction, again
 - Tweaked some minor wordings on multiple cards
 - Tweaked multiple other social interactions a bit
+- Fixed fonts on multiple cards
+- Added "Pytup" rule special card
 
 ## Version 0.0.8
 

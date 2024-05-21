@@ -89,6 +89,7 @@ def _create_sheet(
         current_image.close()
 
     # Resize to be 10k pixels max:
+    assert dest_image
     wpercent = TTS_MAX_SIZE / dest_image.size[0]
     hsize = int(dest_image.size[1] * wpercent)
     filename_suffix = "back" if is_back else "front"

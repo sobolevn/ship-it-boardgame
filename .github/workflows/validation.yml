@@ -1,0 +1,42 @@
+name: validate
+
+on:
+  push:
+    branches:
+      - master
+  pull_request:
+  workflow_dispatch:
+
+concurrency:
+  group: ${{ github.workflow }}-${{ github.head_ref || github.run_id }}
+  cancel-in-progress: true
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    name: Run validation
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install poetry
+        run: |
+          curl -sSL "https://install.python-poetry.org" | python
+
+          # Adding `poetry` to `$PATH`:
+          echo "$HOME/.poetry/bin" >> $GITHUB_PATH
+
+      - name: Install dependencies
+        run: |
+          cd tools
+          poetry config virtualenvs.in-project true
+          poetry run pip install -U pip
+          poetry install
+
+      - run: poetry run -C tools bash tools/validate.sh

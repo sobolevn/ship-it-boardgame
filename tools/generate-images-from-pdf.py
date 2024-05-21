@@ -2,7 +2,7 @@ import argparse
 import io
 import os
 
-import pypdfium2 as pdf
+import pypdfium2 as pdf  # type: ignore[import-untyped]
 
 
 def _render_images(cards: io.BytesIO, output_dir: str) -> None:
