@@ -2,6 +2,7 @@ import argparse
 from typing import Final
 
 import numbers_parser  # type: ignore[import-untyped]
+
 from ship_it_tools import counts
 
 _NUMBER_OF_PLAYERS: Final = 5
