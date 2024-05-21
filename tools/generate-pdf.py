@@ -24,7 +24,6 @@ import io
 import os
 
 import pypdfium2 as pdf  # type: ignore[import-untyped]
-
 from ship_it_tools import counts
 
 
