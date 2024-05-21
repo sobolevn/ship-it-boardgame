@@ -39,4 +39,4 @@ jobs:
           poetry run pip install -U pip
           poetry install
 
-      - run: bash tools/validate.sh
+      - run: poetry run -C tools bash tools/validate.sh
