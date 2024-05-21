@@ -13,6 +13,9 @@ set -x
 # Clean existing build:
 rm -rf build
 
+# Run validation:
+source tools/validate.sh
+
 # Just all cards types in one pdf:
 CARDS_PDF="$1"
 # All cards in one pdf, with correct counts, useful for printing:

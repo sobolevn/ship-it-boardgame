@@ -23,20 +23,9 @@ import contextlib
 import io
 import os
 
-import numbers_parser
-import pypdfium2 as pdf
+import pypdfium2 as pdf  # type: ignore[import-untyped]
 
-
-def _read_counts(counts_path: str) -> list[int]:
-    document = numbers_parser.Document(counts_path)
-    table = document.sheets[0].tables[0]
-
-    read_counts = []
-    for row in range(table.num_rows):
-        cell = table.cell(f"C{row + 1}").value
-        if cell:
-            read_counts.append(int(cell))
-    return read_counts
+from ship_it_tools import counts
 
 
 def _write_cards_with_counts(
@@ -44,6 +33,7 @@ def _write_cards_with_counts(
     counts: list[int],
     output_file: str,
 ) -> None:
+    _validate_counts()
     dest_pdf = pdf.PdfDocument.new()
     src_pdf = pdf.PdfDocument(cards)
 
@@ -81,7 +71,7 @@ def main() -> None:
     parsed_args = parser.parse_args()
     _write_cards_with_counts(
         parsed_args.cards,
-        _read_counts(parsed_args.counts),
+        counts.read_counts(parsed_args.counts),
         parsed_args.output_file,
     )
 
