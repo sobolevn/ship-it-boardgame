@@ -45,4 +45,4 @@ jobs:
           poetry run pip install -U pip
           poetry install
 
-      - run: cd tools && mypy *.py
+      - run: cd tools && poetry run mypy *.py
