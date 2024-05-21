@@ -13,6 +13,8 @@
 - Fixed fonts on multiple cards
 - Added "Pytup" rule special card
 
+Printed (15 decks)!
+
 ## Version 0.0.8
 
 - Added new buffs ⚙️ for some cards when you have deployed components
