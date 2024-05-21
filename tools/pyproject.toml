@@ -11,7 +11,7 @@ classifiers = [
 [tool.poetry.dependencies]
 python = "^3.11"
 
-numbers-parser = "^4.10.4"
+numbers-parser = "^4.10.5"
 pypdfium2 = "^4.30.0"
 pillow = "^10.3.0"
 
