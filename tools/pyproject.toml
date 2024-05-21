@@ -28,6 +28,9 @@ fix = true
 select = ['F', 'I']
 fixable = ['ALL']
 
+[tool.ruff.lint.isort]
+known-first-party = ["ship_it_tools"]
+
 
 [tool.mypy]
 strict = true
