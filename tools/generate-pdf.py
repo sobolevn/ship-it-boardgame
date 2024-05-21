@@ -33,7 +33,6 @@ def _write_cards_with_counts(
     counts: list[int],
     output_file: str,
 ) -> None:
-    _validate_counts()
     dest_pdf = pdf.PdfDocument.new()
     src_pdf = pdf.PdfDocument(cards)
 
