@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.10
+
+- Changed `Cloud` wording a bit
+
 ## Version 0.0.9
 
 - Added new `Agile` card
