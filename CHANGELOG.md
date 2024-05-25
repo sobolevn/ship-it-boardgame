@@ -3,7 +3,7 @@
 ## Version 0.0.10
 
 - Changed `Cloud` wording a bit
-- Changed `Legacy` card category
+- Created `Legacy` card category
 
 ## Version 0.0.9
 
