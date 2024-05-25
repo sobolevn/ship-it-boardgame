@@ -1,0 +1,62 @@
+card:
+  architecture:
+    name: Архитектура
+  attack:
+    name: Атака
+    types:
+      error: Ошибка
+  component:
+    name: Компонент
+    types:
+      backend: Бекенд
+      frontend: Фронтенд
+      monitoring: Мониторинг
+      cloud: Облако
+  defense:
+    name: Защита
+    types:
+      certificate: Сертификат
+      escape: Отговорка
+
+attack:
+  first_player_hand: Рука Алисы
+  first_player_table: Стол Алисы
+  second_player_hand: Рука Бориса
+  face_down_card: Закрытая карта
+  discard: Сброс
+
+card_info:
+  card_type:
+    description: Тип карты
+    example: Защита
+  special_attribute:
+    description: Можно использовать с картой &quot;sudo&quot;
+    example: $
+  card_name:
+    description: Название карты
+    example: Отговорка
+  card_bonus:
+    description: Разыгрывается как реакция
+    example: TODO
+  card_description:
+    description: Описание карты
+    example: Реакцией защититесь от ошибки
+  card_interaction:
+    description: Социальное взаимодействие
+    example: TODO
+  card_counter:
+    description: Количество карт в колоде
+    example: 3 карты
+  card_joke:
+    description: Шутка
+
+game_process:
+  first_player_hand: Рука Алисы
+  first_player_table: Стол Алисы
+  second_player_hand: Рука Бориса
+  second_player_table: Стол Бориса
+  face_down_card: Закрытая карта
+  face_down_cards: Закрытые карты
+  discard: Сброс
+  deck: Колода
+
