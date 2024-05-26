@@ -6,6 +6,7 @@
 - Created `Legacy` card category
 - Changed `CI` and `Certificate` cards, now they can be played at any time
 - Reworked `RFC` description: mention card name and that player cannot lie
+- Explicitly mention that `Error` and `Concrete error` freeze cards for 1 turn
 - Tweaked several wordings in rules and cards
 - Improved short rules
 
