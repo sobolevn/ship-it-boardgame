@@ -9,6 +9,8 @@
 - Reworked `RFC` description: mention card name and that player cannot lie
 - Increased the number of `Cherrypick` cards by 1
 - Explicitly mention that `Error` and `Concrete error` freeze cards for 1 turn
+- Explicitly mention who you can attack and who you can defend
+- Changed reaction icon from ♻️ to ↩️
 - Tweaked several wordings in rules and cards
 - Improved short rules
 
