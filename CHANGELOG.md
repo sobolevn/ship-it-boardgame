@@ -2,6 +2,7 @@
 
 ## Version 0.0.10
 
+- Added new `Man in the Middle` card
 - Removed `Supply chain` card
 - Changed `Cloud` wording a bit
 - Created `Legacy` card category
