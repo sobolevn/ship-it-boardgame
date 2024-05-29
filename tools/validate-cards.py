@@ -1,11 +1,8 @@
 import argparse
-from typing import Final
 
 import numbers_parser  # type: ignore[import-untyped]
 
-from ship_it_tools import counts
-
-_NUMBER_OF_PLAYERS: Final = 5
+from ship_it_tools import counts, meta
 
 
 def _read_card_counts(cards_path: str) -> list[int]:
@@ -15,7 +12,7 @@ def _read_card_counts(cards_path: str) -> list[int]:
     for card_sheet in document.sheets:
         cell_value = card_sheet.tables[0].cell("E18").value.strip()
         if cell_value.startswith("="):  # `= number of players`
-            card_counts.append(_NUMBER_OF_PLAYERS)
+            card_counts.append(meta.NUMBER_OF_PLAYERS)
         else:
             card_counts.append(int(cell_value.split(" ")[0]))
     return card_counts
