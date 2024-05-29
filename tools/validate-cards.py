@@ -13,8 +13,8 @@ def _read_card_counts(cards_path: str) -> list[int]:
 
     card_counts = []
     for card_sheet in document.sheets:
-        cell_value = card_sheet.tables[0].cell("E18").value
-        if cell_value.startswith(" ="):  # `= number of players`
+        cell_value = card_sheet.tables[0].cell("E18").value.strip()
+        if cell_value.startswith("="):  # `= number of players`
             card_counts.append(_NUMBER_OF_PLAYERS)
         else:
             card_counts.append(int(cell_value.split(" ")[0]))
