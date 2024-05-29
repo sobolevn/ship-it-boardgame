@@ -12,14 +12,16 @@ To export cards to Table Top Simulator:
 import argparse
 import os
 from pathlib import Path
+from typing import Final
 
 from PIL import Image
 
-TTS_WIDTH = 10
-TTS_HEIGHT = 7
-TTS_FORMAT = TTS_WIDTH * TTS_HEIGHT
-TTS_MAX_SIZE = 10000
-NUM_OF_ARCH_CARDS = 5
+from ship_it_tools import meta
+
+TTS_WIDTH: Final = 10
+TTS_HEIGHT: Final = 7
+TTS_FORMAT: Final = TTS_WIDTH * TTS_HEIGHT
+TTS_MAX_SIZE: Final = 10000
 
 
 def _count_files(image_dir: str) -> int:
@@ -44,7 +46,7 @@ def _create_filename(
             os.path.dirname(image_dir),
             "covers",
         )
-        if filename >= NUM_OF_ARCH_CARDS:
+        if filename >= meta.NUMBER_OF_PLAYERS:
             return os.path.join(cover_dir, "cover_dark.png")
         return os.path.join(cover_dir, "cover_white.png")
     return os.path.join(image_dir, f"{filename}.jpg")
@@ -119,11 +121,6 @@ def main() -> None:
         type=str,  # TODO: dirname
         help="Folder with all card types images",
     )
-    # parser.add_argument(
-    #     '--local-build',
-    #     action='store_true',
-    #     help='Set to toggle a local build for local TTS game only',
-    # )
     parsed_args = parser.parse_args()
     _create_tts_images(parsed_args.images_dir)
 
