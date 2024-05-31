@@ -41,11 +41,13 @@ What this game is like?
 I once played https://www.deployordie.com/ game,
 which motivated me to invent my own game in a similar setting.
 
-It is also quite similar to https://www.explodingkittens.com in some aspects.
+Some people say that this game has some similarities to
+- https://explodingkittens.com
+- https://en.wikipedia.org/wiki/Munchkin_(card_game)
 
 ## Attributions
 
-Thanks a lot to my friends, who helped me with ideas, testing, and rules.
+Thanks a lot to all my friends, who helped me with ideas, playtesting, and rules.
 
 Please, add yourself to `AUTHORS` if you contributed in any way :)
 
