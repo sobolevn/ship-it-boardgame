@@ -14,6 +14,7 @@
 - Explicitly mention who you can attack and who you can defend
 - Changed reaction icon from ♻️ to ↩️
 - Tweaked several wordings in rules and cards
+- Tweaked multiple social interactions' wordings
 - Improved short rules
 
 ## Version 0.0.9
