@@ -3,7 +3,6 @@
 ## Version 0.0.10
 
 - Added new `Man in the Middle` card
-- Added new `Disconnect` card
 - Removed `Supply chain` card
 - Created `Legacy` card category
 - Renamed `New Release` to `Crutches`
@@ -12,12 +11,11 @@
 - Reworked `RFC` description: mention card name and that player cannot lie
 - Added new explanation to `sudo` card
 - Increased the number of `Cherrypick` cards by 1
-- Decreased the number of `DDoS` cards by 1
+- Reworked `Burnout` card to be a reaction
 - Explicitly mention that `Error` and `Concrete error` freeze cards for 1 turn
 - Explicitly mention who you can attack and who you can defend
 - Changed reaction icon from ♻️ to ↩️
-- Added 🕑 icon to cards that should stay at your table
-  for a turn (`DDoS` and `Burnout`)
+- Added 🕑 icon to cards that should stay at your table for a turn (`DDoS`)
 - Tweaked several wordings in rules and cards
 - Tweaked multiple social interactions' wordings
 - Improved short rules
