@@ -18,6 +18,7 @@
 - Added 🕑 icon to cards that should stay at your table for a turn (`DDoS`)
 - Tweaked several wordings in rules and cards
 - Tweaked multiple social interactions' wordings
+- Tweaked several jokes
 - Improved short rules
 
 ## Version 0.0.9
