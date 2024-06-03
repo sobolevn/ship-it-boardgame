@@ -4,6 +4,7 @@
 
 - Added new `Man in the Middle` card
 - Removed `Supply chain` card
+- Removed `Agile` card
 - Created `Legacy` card category
 - Renamed `New Release` to `Crutches`
 - Changed `CI` and `Certificate` cards, now they can be placed even
@@ -12,7 +13,6 @@
 - Added new explanation to `sudo` card
 - Increased the number of `Cherrypick` cards by 1
 - Increased the number of `Burnout` cards by 1
-- Decreased the number of `RFC` cards by 1
 - Reworked `Burnout` card to be a reaction
 - Explicitly mention that `Error` and `Concrete error` freeze cards for 1 turn
 - Explicitly mention who you can attack and who you can defend
