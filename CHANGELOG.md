@@ -11,6 +11,8 @@
 - Reworked `RFC` description: mention card name and that player cannot lie
 - Added new explanation to `sudo` card
 - Increased the number of `Cherrypick` cards by 1
+- Increased the number of `Burnout` cards by 1
+- Decreased the number of `RFC` cards by 1
 - Reworked `Burnout` card to be a reaction
 - Explicitly mention that `Error` and `Concrete error` freeze cards for 1 turn
 - Explicitly mention who you can attack and who you can defend
