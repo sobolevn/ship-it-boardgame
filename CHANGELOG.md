@@ -18,6 +18,7 @@
 - Explicitly mention who you can attack and who you can defend
 - Changed reaction icon from ♻️ to ↩️
 - Added 🕑 icon to cards that should stay at your table for a turn (`DDoS`)
+- Added 🛡 icon to cards with provocation (`Monitoring`, `Firewall`)
 - Tweaked several wordings in rules and cards
 - Tweaked multiple social interactions' wordings
 - Tweaked several jokes
