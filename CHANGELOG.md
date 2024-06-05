@@ -1,5 +1,7 @@
 # Changes
 
+## Version 0.0.11 WIP
+
 ## Version 0.0.10
 
 - Added new `Man in the Middle` card
@@ -23,6 +25,8 @@
 - Tweaked multiple social interactions' wordings
 - Tweaked several jokes
 - Improved short rules
+
+Printed (1 deck)!
 
 ## Version 0.0.9
 
