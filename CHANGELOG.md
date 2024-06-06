@@ -2,6 +2,8 @@
 
 ## Version 0.0.11 WIP
 
+- Added 🕑 icon to more cards: `Manual`, `Deadline`, `Friday`
+
 ## Version 0.0.10
 
 - Added new `Man in the Middle` card
