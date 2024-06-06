@@ -2,7 +2,13 @@
 
 ## Version 0.0.11 WIP
 
+- Removed `Orchestrator` card
+- Increased the number of `OpenSource` cards by 1
+- Increased the number of `Burnout` cards by 1
+- Decreased the number of `Cherrypick` cards by 1
+- Changed `Legacy` color from purple to light grey
 - Added 🕑 icon to more cards: `Manual`, `Deadline`, `Friday`
+- Changed wordings of `500` and `0 day` to allow only reactions
 
 ## Version 0.0.10
 
