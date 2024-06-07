@@ -2,6 +2,8 @@
 
 ## Version 0.0.11 WIP
 
+- Now all players receive one `Burnout` card at the start
+- Added explicit "game variants" to the rules
 - Removed `Orchestrator` card
 - Increased the number of `OpenSource` cards by 1
 - Increased the number of `Burnout` cards by 2
@@ -10,6 +12,7 @@
 - Changed `Legacy` color from purple to light grey
 - Added 🕑 icon to more cards: `Manual`, `Deadline`, `Friday`
 - Changed wordings of `500` and `0 day` to allow only reactions
+- Tweaked multiple wordings on cards
 
 ## Version 0.0.10
 
