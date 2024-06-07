@@ -13,7 +13,6 @@
 - Changed `Legacy` color from purple to light grey
 - Added 🕑 icon to more cards: `Manual`, `Friday`
 - Reworked `Frontend` social interaction, again
-- Changed wordings of `500` and `0 day` to allow only reactions
 - Tweaked multiple wordings on cards
 - Tweaked rules
 
