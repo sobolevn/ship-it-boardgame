@@ -1,16 +1,18 @@
 # Changes
 
-## Version 0.0.11 WIP
+## Version 0.0.11 aka "The Great Purge"
 
 - Now all players receive one `Burnout` card at the start
 - Added explicit "game variants" to the rules
 - Removed `Orchestrator` card
-- Increased the number of `OpenSource` cards by 1
+- Removed `Queue` card
+- Removed `Deadline` card
+- Removed `Cherrypick` card
+- Added `Handshake` card
 - Increased the number of `Burnout` cards by 2
-- Decreased the number of `Cherrypick` cards by 1
-- Decreased the number of `Deadline` cards by 1
 - Changed `Legacy` color from purple to light grey
-- Added 🕑 icon to more cards: `Manual`, `Deadline`, `Friday`
+- Added 🕑 icon to more cards: `Manual`, `Friday`
+- Reworked `Frontend` social interaction, again
 - Changed wordings of `500` and `0 day` to allow only reactions
 - Tweaked multiple wordings on cards
 - Tweaked rules
