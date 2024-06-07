@@ -13,6 +13,7 @@
 - Added 🕑 icon to more cards: `Manual`, `Deadline`, `Friday`
 - Changed wordings of `500` and `0 day` to allow only reactions
 - Tweaked multiple wordings on cards
+- Tweaked rules
 
 ## Version 0.0.10
 
