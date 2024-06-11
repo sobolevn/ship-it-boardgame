@@ -10,6 +10,7 @@
 - Removed `Cherrypick` card
 - Added `Handshake` card
 - Increased the number of `Burnout` cards by 2
+- Increased the number of `Man in the Middle` cards by 1
 - Changed `Legacy` color from purple to light grey
 - Added 🕑 icon to more cards: `Manual`, `Friday`
 - Reworked `Frontend` social interaction, again
