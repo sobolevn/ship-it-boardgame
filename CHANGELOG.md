@@ -17,6 +17,8 @@
 - Tweaked multiple wordings on cards
 - Tweaked rules
 
+Printed (2 decks)!
+
 ## Version 0.0.10
 
 - Added new `Man in the Middle` card
