@@ -2,7 +2,6 @@
 
 ## Version 0.0.11 aka "The Great Purge"
 
-- Now all players receive one `Burnout` card at the start
 - Added explicit "game variants" to the rules
 - Removed `Orchestrator` card
 - Removed `Queue` card
