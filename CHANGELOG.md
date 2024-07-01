@@ -16,7 +16,7 @@
 - Tweaked multiple wordings on cards
 - Tweaked rules
 
-Printed (2 decks)!
+Printed (33 decks)!
 
 ## Version 0.0.10
 
