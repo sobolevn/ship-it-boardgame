@@ -1,5 +1,11 @@
 # Changes
 
+## Version 0.0.12 WIP
+
+- Changed the hand limit from 10 to 8
+- Tweaked `Handshake` wording
+- Added unofficail `boosters/` directory, just for tests
+
 ## Version 0.0.11 aka "The Great Purge"
 
 - Added explicit "game variants" to the rules
@@ -16,7 +22,7 @@
 - Tweaked multiple wordings on cards
 - Tweaked rules
 
-Printed (33 decks)!
+Printed (36 decks)!
 
 ## Version 0.0.10
 
