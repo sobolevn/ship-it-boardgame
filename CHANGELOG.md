@@ -5,6 +5,7 @@
 - Changed the hand limit from 10 to 8
 - Tweaked `Handshake` wording
 - Added unofficail `boosters/` directory, just for tests
+- Tweaked rules a bit
 
 ## Version 0.0.11 aka "The Great Purge"
 
