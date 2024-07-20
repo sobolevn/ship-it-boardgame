@@ -3,6 +3,7 @@
 ## Version 0.0.12 WIP
 
 - Changed the hand limit from 10 to 8
+- Increased the number of `Burnout` cards by 1
 - Tweaked `Handshake` wording
 - Added unofficail `boosters/` directory, just for tests
 - Tweaked rules a bit
