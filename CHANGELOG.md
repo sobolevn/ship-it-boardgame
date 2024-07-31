@@ -4,7 +4,7 @@
 
 - Changed the hand limit from 10 to 8
 - Increased the number of `Burnout` cards by 1
-- Tweaked `Handshake` wording
+- Changed `Handshake` rule: you now exchange cards openly
 - Added unofficail `boosters/` directory, just for tests
 - Tweaked rules a bit
 
