@@ -1,6 +1,6 @@
 # Changes
 
-## Version 0.0.12 WIP
+## Version 0.0.12
 
 - Changed the hand limit from 10 to 8
 - Increased the number of `Burnout` cards by 1
