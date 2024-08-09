@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.13
+
+- Tweaked rules a bit
+
 ## Version 0.0.12
 
 - Changed the hand limit from 10 to 8
@@ -7,6 +11,8 @@
 - Changed `Handshake` rule: you now exchange cards openly
 - Added unofficail `boosters/` directory, just for tests
 - Tweaked rules a bit
+
+Printed (5 decks)!
 
 ## Version 0.0.11 aka "The Great Purge"
 
