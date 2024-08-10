@@ -2,6 +2,9 @@
 
 ## Version 0.0.13
 
+- Removed `DDoS` card
+- Increased the number of `OpenSource` cards by 1
+- Changed `OpenSource` rule: you now put cards openly
 - Tweaked rules a bit
 
 ## Version 0.0.12
