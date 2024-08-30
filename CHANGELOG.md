@@ -5,6 +5,11 @@
 - Removed `DDoS` card
 - Increased the number of `OpenSource` cards by 1
 - Changed `OpenSource` rule: you now put cards openly
+- Changed `Vulnerability` symbol from ▪ to ɷ
+- Added icons to `Frontend` / `Backend` / `Database` components
+- Added blue icons to the defence cards
+- Removed 🕑 icon from `Friday`
+- Reworked `Frontend` social interaction, AGAIN
 - Tweaked rules a bit
 
 ## Version 0.0.12
