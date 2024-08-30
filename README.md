@@ -52,6 +52,9 @@ Thanks a lot to all my friends, who helped me with ideas, playtesting, and rules
 
 Please, add yourself to `AUTHORS` if you contributed in any way :)
 
+Other projects that I used:
+- Icons: [FontAwesome](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt)
+
 ## LICENSE
 
 [CC BY-NC-SA 4.0](https://github.com/sobolevn/ship-it-boardgame/blob/master/LICENSE)
