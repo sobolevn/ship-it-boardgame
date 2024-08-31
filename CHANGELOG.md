@@ -9,7 +9,9 @@
 - Increased the number of `OpenSource` cards by 2
 - Increased the number of `Crutches` cards by 1
 - Increased the number of `Man in the Middle` cards by 1
+- Increased the number of `Hacker's Paws` cards by 1
 - Decreased the number of `sudo` cards by 1
+- Decreased the number of `Specific Vulnerability` cards by 1
 - Changed `OpenSource` rule: you now put cards openly
 - Changed `Vulnerability` symbol from ▪ to ɷ
 - Added icons to `Frontend` / `Backend` / `Database` components
