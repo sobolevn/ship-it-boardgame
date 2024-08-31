@@ -6,6 +6,8 @@
 - Increased the number of `OpenSource` cards by 1
 - Changed `OpenSource` rule: you now put cards openly
 - Changed `Vulnerability` symbol from ▪ to ɷ
+- Increased the number of `Man in the Middle` cards by 1
+- Decreased the number of `sudo` cards by 1
 - Added icons to `Frontend` / `Backend` / `Database` components
 - Added component icons to Archetecture cards
 - Enlarged `Cloud`'s icons
