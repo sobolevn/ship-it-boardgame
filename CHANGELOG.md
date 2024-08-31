@@ -7,6 +7,8 @@
 - Changed `OpenSource` rule: you now put cards openly
 - Changed `Vulnerability` symbol from ▪ to ɷ
 - Added icons to `Frontend` / `Backend` / `Database` components
+- Added component icons to Archetecture cards
+- Enlarged `Cloud`'s icons
 - Added blue icons to the defence cards
 - Removed 🕑 icon from `Friday`
 - Reworked `Frontend` social interaction, AGAIN
