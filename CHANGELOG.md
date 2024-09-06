@@ -1,5 +1,10 @@
 # Changes
 
+## Version 0.0.14
+
+- Increased the number of `Specific Vulnerability` cards by 1
+- Decreased the number of `Hacker's Paws` cards by 1
+
 ## Version 0.0.13
 
 - Removed `DDoS` card
@@ -21,6 +26,8 @@
 - Removed 🕑 icon from `Friday`
 - Reworked `Frontend` social interaction, AGAIN
 - Tweaked rules a bit
+
+Printed (4 decks)!
 
 ## Version 0.0.12
 
