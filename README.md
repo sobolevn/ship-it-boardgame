@@ -13,6 +13,7 @@ No real IT skills are required to play this game :)
 ## Play
 
 - Order a physical copy: [mail@sobolevn.me](mailto:mail@sobolevn.me)
+- Print your own physical copy from [the latest release](https://github.com/sobolevn/ship-it-boardgame/releases/latest), it is free!
 - [Online via Table Top Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3172213526) or create your own [Table Top Simulator](https://github.com/sobolevn/ship-it-boardgame/blob/master/table-top-simulator.md) version
 
 ## Rules and languages
