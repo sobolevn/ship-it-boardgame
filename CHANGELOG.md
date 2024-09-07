@@ -2,10 +2,8 @@
 
 ## Version 0.0.14
 
-- Removed `Friday` card (3 cards)
 - Increased the number of `Specific Vulnerability` cards by 1
-- Increased the number of `Burnout` cards by 1
-- Increased the number of `Cancel` cards by 1
+- Decreased the number of `Hacker's Paws` cards by 1
 
 ## Version 0.0.13
 
