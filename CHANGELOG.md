@@ -3,6 +3,7 @@
 ## Version 0.0.14
 
 - Change `Friday` card: it can now be canceled
+- Change `Hacker's paws` card: it can now be ignored when you have `Legacy`
 - Increased the number of `Specific Vulnerability` cards by 1
 - Decreased the number of `Friday` cards by 1
 
