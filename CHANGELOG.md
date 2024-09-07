@@ -2,8 +2,9 @@
 
 ## Version 0.0.14
 
+- Change `Friday` card: it can now be canceled
 - Increased the number of `Specific Vulnerability` cards by 1
-- Decreased the number of `Hacker's Paws` cards by 1
+- Decreased the number of `Friday` cards by 1
 
 ## Version 0.0.13
 
