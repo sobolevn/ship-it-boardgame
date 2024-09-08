@@ -6,6 +6,8 @@
 - Change `Hacker's paws` card: it can now be ignored when you have `Legacy`
 - Increased the number of `Specific Vulnerability` cards by 1
 - Decreased the number of `Friday` cards by 1
+- Tweaked multiple wordings on cards
+- Tweaked rules a bit
 
 ## Version 0.0.13
 
