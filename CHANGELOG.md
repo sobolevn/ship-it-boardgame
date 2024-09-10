@@ -2,8 +2,8 @@
 
 ## Version 0.0.14
 
-- Change `Friday` card: it can now be canceled
-- Change `Hacker's paws` card: it now interacts with `Legacy`
+- Changed `Friday` card: it now interacts with `Legacy`
+- Changed `Hacker's paws` card: it now interacts with `Legacy`
 - Increased the number of `Specific Vulnerability` cards by 1
 - Decreased the number of `Friday` cards by 1
 - Tweaked multiple wordings on cards
@@ -32,6 +32,7 @@
 - Tweaked rules a bit
 
 Printed (4 decks)!
+This released was cursed, printed decks have printing bugs.
 
 ## Version 0.0.12
 
