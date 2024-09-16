@@ -1,5 +1,11 @@
 # Changes
 
+## Version 0.0.15
+
+- Improved the short rules layout
+- Clarify `RFC` rules about architecture cards
+- Reword `sudo` card, it was too complex
+
 ## Version 0.0.14
 
 - Changed `Friday` card: it now interacts with `Legacy`
