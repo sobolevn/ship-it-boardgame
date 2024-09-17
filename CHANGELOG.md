@@ -2,9 +2,11 @@
 
 ## Version 0.0.15
 
-- Improved the short rules layout
+- Reworked `$` icon to be a full text field instead, removed the icon
+- Reworked `sudo` wording, it was too complex
 - Clarify `RFC` rules about architecture cards
-- Reword `sudo` card, it was too complex
+- Improved the short rules layout
+- Tweak rules a bit
 
 ## Version 0.0.14
 
