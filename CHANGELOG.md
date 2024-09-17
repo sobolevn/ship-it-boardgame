@@ -4,9 +4,9 @@
 
 - Reworked `$` icon to be a full text field instead, removed the icon
 - Reworked `sudo` wording, it was too complex
-- Clarify `RFC` rules about architecture cards
+- Clarified `RFC` rules about architecture cards
 - Improved the short rules layout
-- Tweak rules a bit
+- Tweaked rules a bit
 
 ## Version 0.0.14
 
