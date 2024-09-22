@@ -1,5 +1,14 @@
 # Changes
 
+## Version 0.0.16
+
+- Reworked `CI` and `Certificate` cards, now they have a big icon
+  (similar to one that component cards have) for better visibility
+- Changed `Friday` and `Hacker's paws` cards:
+  they now interacts with only known `Legacy`
+- Tweaked `sudo` a bit
+- Tweaked some jokes and wordings
+
 ## Version 0.0.15
 
 - Reworked `$` icon to be a full text field instead, removed the icon
@@ -7,6 +16,7 @@
 - Clarified `RFC` rules about architecture cards
 - Improved the short rules layout
 - Tweaked rules a bit
+- Added special GitVerse rule card
 
 ## Version 0.0.14
 
@@ -47,7 +57,7 @@ This released was cursed, printed decks have printing bugs.
 - Changed the hand limit from 10 to 8
 - Increased the number of `Burnout` cards by 1
 - Changed `Handshake` rule: you now exchange cards openly
-- Added unofficail `boosters/` directory, just for tests
+- Added unofficial `boosters/` directory, just for tests
 - Tweaked rules a bit
 
 Printed (5 decks)!
