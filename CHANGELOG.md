@@ -2,11 +2,13 @@
 
 ## Version 0.0.16
 
+- Changed `Man in the Middle`, `Garbage collector`, and `Manual`
+  to interact with `sudo` in unique ways
 - Reworked `CI` and `Certificate` cards, now they have a big icon
   (similar to one that component cards have) for better visibility
 - Changed `Friday` and `Hacker's paws` cards:
-  they now interacts with only known `Legacy`
-- Tweaked `sudo` a bit
+  they now interact with only known `Legacy`
+- Changed how `sudo` works: it now supports more cards
 - Tweaked some jokes and wordings
 
 ## Version 0.0.15
