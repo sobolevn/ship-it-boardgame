@@ -6,6 +6,7 @@
   to interact with `sudo` in unique ways
 - Reworked `CI` and `Certificate` cards, now they have a big icon
   (similar to one that component cards have) for better visibility
+- Reworked `CI`'s and `Certificate`'s ⚙️ icon. It is now a full text field
 - Changed `Friday` and `Hacker's paws` cards:
   they now interact with only known `Legacy`
 - Changed how `sudo` works: it now supports more cards
@@ -19,6 +20,9 @@
 - Improved the short rules layout
 - Tweaked rules a bit
 - Added special GitVerse rule card
+
+Printed (2 decks)!
+This version was only released in English.
 
 ## Version 0.0.14
 
