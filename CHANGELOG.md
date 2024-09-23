@@ -1,5 +1,12 @@
 # Changes
 
+## Version 0.0.17
+
+- Changed `Handshake` to interact with `sudo`
+- Decreased the number of `Crutches` cards by 1
+- Increased the number of `sudo` cards by 1
+- Tweaked some jokes and wordings
+
 ## Version 0.0.16
 
 - Changed `Man in the Middle`, `Garbage collector`, and `Manual`
