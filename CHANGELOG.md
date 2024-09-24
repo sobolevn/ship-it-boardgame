@@ -5,6 +5,7 @@
 - Changed `Handshake` to interact with `sudo`
 - Decreased the number of `Not a bug` cards by 1
 - Increased the number of `sudo` cards by 1
+- Added `Cloud` component icon
 - Tweaked some jokes and wordings
 - Tweaked short rules a bit
 - Tweaked rules a bit
