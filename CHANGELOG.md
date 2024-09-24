@@ -3,9 +3,11 @@
 ## Version 0.0.17
 
 - Changed `Handshake` to interact with `sudo`
-- Decreased the number of `Crutches` cards by 1
+- Decreased the number of `Not a bug` cards by 1
 - Increased the number of `sudo` cards by 1
 - Tweaked some jokes and wordings
+- Tweaked short rules a bit
+- Tweaked rules a bit
 
 ## Version 0.0.16
 
