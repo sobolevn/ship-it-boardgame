@@ -12,6 +12,7 @@
 - Tweaked wording
 - Tweaked rules
 - Tweaked short rules
+- Added homebrew rules section
 
 ## Version 0.0.17
 
