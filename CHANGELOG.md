@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.18
+
+- Clarified that `Cancel` card cancels cards with `sudo`
+
 ## Version 0.0.17
 
 - Changed `Handshake` to interact with `sudo`
