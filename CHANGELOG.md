@@ -10,6 +10,7 @@
 - Clarified that `Cancel` card cancels cards with `sudo`
 - Changed `RFC`'s social interaction to better suite the new mechanics
 - Changed `Backend`'s social interaction a bit
+- Changed `Frontend`'s social interaction THE LAST TIME!!!
 - Fixed several printing issues
 - Tweaked wording
 - Tweaked rules
