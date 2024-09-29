@@ -9,6 +9,7 @@
 - Changed `Manual`'s effect with `sudo`
 - Clarified that `Cancel` card cancels cards with `sudo`
 - Changed `RFC`'s social interaction to better suite the new mechanics
+- Changed `Backend`'s social interaction a bit
 - Fixed several printing issues
 - Tweaked wording
 - Tweaked rules
@@ -24,6 +25,8 @@
 - Tweaked some jokes and wordings
 - Tweaked short rules a bit
 - Tweaked rules a bit
+
+Printed (1 deck)!
 
 ## Version 0.0.16
 
