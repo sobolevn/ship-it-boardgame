@@ -8,6 +8,7 @@
 - Changed `Redirect` to interact with `sudo`
 - Changed `Manual`'s effect with `sudo`
 - Clarified that `Cancel` card cancels cards with `sudo`
+- Changed `RFC`'s social interaction to better suite the new mechanics
 - Fixed several printing issues
 - Tweaked wording
 - Tweaked rules
