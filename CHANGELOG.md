@@ -2,7 +2,16 @@
 
 ## Version 0.0.18
 
+- Changed `Hype` to interact with `sudo`
+- Changed `P2P` to interact with `sudo`
+- Changed `RFC` to interact with `sudo`
+- Changed `Redirect` to interact with `sudo`
+- Changed `Manual`'s effect with `sudo`
 - Clarified that `Cancel` card cancels cards with `sudo`
+- Fixed several printing issues
+- Tweaked wording
+- Tweaked rules
+- Tweaked short rules
 
 ## Version 0.0.17
 
