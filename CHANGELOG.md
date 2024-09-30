@@ -7,6 +7,7 @@
 - Changed `P2P` to interact with `sudo`
 - Changed `RFC` to interact with `sudo`
 - Changed `Redirect` to interact with `sudo`
+- Changed `Burnout` to interact with `sudo`
 - Changed `Manual`'s effect with `sudo`
 - Clarified that `Cancel` card cancels cards with `sudo`
 - Changed `RFC`'s social interaction to better suite the new mechanics
@@ -21,6 +22,7 @@
 - Tweaked rules
 - Tweaked short rules
 - Tweaked multiple jokes
+- Reworked FAQ
 - Added homebrew rules section
 
 ## Version 0.0.17
