@@ -13,7 +13,7 @@
 - Changed `Backend`'s social interaction a bit
 - Changed `Frontend`'s social interaction THE LAST TIME!!!
 - Tweaked `sudo` and `Legacy` descriptions
-- Fixed several printing issues
+- Fixed several printing issues and style details
 - Tweaked wording
 - Tweaked rules
 - Tweaked short rules
