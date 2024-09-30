@@ -2,6 +2,7 @@
 
 ## Version 0.0.18
 
+- Added "when this card can be played" field to all cards
 - Changed `Hype` to interact with `sudo`
 - Changed `P2P` to interact with `sudo`
 - Changed `RFC` to interact with `sudo`
@@ -11,6 +12,7 @@
 - Changed `RFC`'s social interaction to better suite the new mechanics
 - Changed `Backend`'s social interaction a bit
 - Changed `Frontend`'s social interaction THE LAST TIME!!!
+- Tweaked `sudo` and `Legacy` descriptions
 - Fixed several printing issues
 - Tweaked wording
 - Tweaked rules
