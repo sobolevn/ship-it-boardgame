@@ -13,6 +13,9 @@
 - Changed `Backend`'s social interaction a bit
 - Changed `Frontend`'s social interaction THE LAST TIME!!!
 - Tweaked `sudo` and `Legacy` descriptions
+- Tweaked `500` and `0 day` descriptions
+- Added a new field to `Manual` that says that it should not be discarded
+- Changed all cards' and social interactions' tone to informal
 - Fixed several printing issues and style details
 - Tweaked wording
 - Tweaked rules
