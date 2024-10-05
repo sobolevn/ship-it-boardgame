@@ -3,6 +3,7 @@
 ## Version 0.0.19
 
 - Changed `Cloud` to interact with `sudo`
+- Changed `Cloud`'s icons
 
 ## Version 0.0.18
 
