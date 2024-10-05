@@ -4,6 +4,7 @@
 
 - Changed `Cloud` to interact with `sudo`
 - Changed `Cloud`'s icons
+- Changed `(⚙️ N)` to be `/⚙️N` on cards
 
 ## Version 0.0.18
 
