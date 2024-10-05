@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.19
+
+- Changed `Cloud` to interact with `sudo`
+
 ## Version 0.0.18
 
 - Added "when this card can be played" field to all cards
