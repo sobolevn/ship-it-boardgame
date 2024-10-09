@@ -3,6 +3,7 @@
 ## Version 0.0.19 aka "The New Defence"
 
 - Removed `CI` and `Certificate` cards
+- Removed `Manual`'s `sudo` effect
 - Increased the number of `Crutches` cards by 2
 - Increased the number of `sudo` cards by 1
 - Increased the number of `Burnout` cards by 1
