@@ -1,7 +1,13 @@
 # Changes
 
-## Version 0.0.19
+## Version 0.0.19 aka "The New Defence"
 
+- Removed `CI` and `Certificate` cards
+- Increased the number of `Crutches` cards by 2
+- Increased the number of `sudo` cards by 1
+- Increased the number of `Burnout` cards by 1
+- Changed `Not a bug` and `Patch` card to also take atack
+  card on succesful defence with `sudo`
 - Changed `Cloud` to interact with `sudo`
 - Changed `Cloud`'s icons
 - Changed `(⚙️ N)` to be `/⚙️N` on cards
