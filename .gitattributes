@@ -1,0 +1,10 @@
+# Generated files
+# https://github.com/github/linguist/blob/master/docs/overrides.md
+#
+# To always hide generated files in local diffs, mark them as binary:
+# $ git config diff.generated.binary true
+#
+
+[attr]generated linguist-generated=true diff=generated
+
+*/schema-sources  generated
