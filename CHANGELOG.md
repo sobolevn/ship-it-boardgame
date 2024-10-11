@@ -14,6 +14,7 @@
 - Changed `Cloud`'s icons
 - Changed `(⚙️ N)` to be `/⚙️N` on cards
 - Tweaked rules
+- Tweaked wordings on several cards
 
 ## Version 0.0.18
 
