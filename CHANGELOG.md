@@ -41,6 +41,8 @@
 - Reworked FAQ
 - Added homebrew rules section
 
+Printed (1 deck)!
+
 ## Version 0.0.17
 
 - Changed `Handshake` to interact with `sudo`
