@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.20
+
+- Tweaked rules
+
 ## Version 0.0.19 aka "The New Defence"
 
 - Removed `CI` and `Certificate` cards
