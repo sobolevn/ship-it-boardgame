@@ -163,7 +163,7 @@ Printed (36 decks)!
 - Increased the number of `Cherrypick` cards by 1
 - Increased the number of `Burnout` cards by 1
 - Reworked `Burnout` card to be a reaction
-- Explicitly mention that `Error` and `Concrete error` freeze cards for 1 turn
+- Explicitly mention that `Bug` and `Concrete Bug` freeze cards for 1 turn
 - Explicitly mention who you can attack and who you can defend
 - Changed reaction icon from ♻️ to ↩️
 - Added 🕑 icon to cards that should stay at your table for a turn (`DDoS`)
@@ -225,7 +225,7 @@ Printed (9 decks)!
 - Added `Deadline` event card
 - Specified the starting player
 - Added icons to the `Cloud` card, so you can tell what card it replaces
-- Added `Error` and `Vulnerability` icons
+- Added `Bug` and `Vulnerability` icons
 - Highlighted card types in the descriptions
 - Fixed `Cloud` wording and updated its rules
 - Updated `game-process.schema` to include `Cloud` and `Architecture` cards
@@ -237,7 +237,7 @@ Printed (9 decks)!
 - Decreased the amount of `DDoS` by 1
 - Increased the amount of `RFC` cards by 1
 - Decreased the amount of `CI` cards by 1
-- Removed social pseudo-interaction from `Critical error`
+- Removed social pseudo-interaction from `Critical Bug`
 - Remove social interaction from `0 day`
 - Changed `+ sudo?` part on all cards to be `$`
 - Moved special ♻️ sign of reaction cards to the top
@@ -258,7 +258,7 @@ Printed (12 decks)!
 - Buffed `OpenSource` card
 - Improved `Microservices`'s joke rendering
 - Improved wordings on some cards
-- Now `Critical error` has a new social interaction
+- Now `Critical Bug` has a new social interaction
 - Improved card's schema
 - Improved rules' wordings
 - Now using `draw.io` for schemas
@@ -323,7 +323,7 @@ Printed (1 deck)!
 - Added `Microservices` card
 - Removed one `Application` card
 - Changed the number of `Frontend` cards from 5 to 4
-- Added one more `Error` card
+- Added one more `Bug` card
 - Changed the number of `RFC` from 5 to 3
 - Increased the number of `Research` from 2 to 3
 - Reworked the `Reuse` card into `Garbage collector`,
