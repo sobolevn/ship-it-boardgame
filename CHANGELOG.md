@@ -2,7 +2,11 @@
 
 ## Version 0.0.20
 
+- Changed `Opensource` effect with `sudo`
+- Tweaked wordings on several cards
 - Tweaked rules
+- Changed rules layout
+- Improved "hard" mode rules
 
 ## Version 0.0.19 aka "The New Defence"
 
