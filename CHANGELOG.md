@@ -2,6 +2,7 @@
 
 ## Version 0.0.20
 
+- Added "Ship IT Rules CTO" bot: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
 - Changed `Opensource` effect with `sudo`
 - Tweaked wordings on several cards
 - Tweaked rules

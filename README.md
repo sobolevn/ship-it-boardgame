@@ -20,6 +20,8 @@ No real IT skills are required to play this game :)
 
 - [Russian](https://github.com/sobolevn/ship-it-boardgame/blob/master/ru/rules.md) 🇷🇺
 
+ChatGPT assistant called "Ship IT Rules CTO" to help you with the rules: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
+
 ## TODO
 
 This is the earliest release of the game.

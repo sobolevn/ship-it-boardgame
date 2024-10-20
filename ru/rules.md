@@ -11,6 +11,8 @@
 
 [![Telegram chat](https://img.shields.io/badge/chat-join-blue?logo=telegram)](https://t.me/ship_it_boardgame)
 
+А еще у нас есть бот "Ship IT Rules CTO", кто может помочь с правилами и объяснить, что делать в той или иной ситуации: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
+
 
 ## Карты
 
