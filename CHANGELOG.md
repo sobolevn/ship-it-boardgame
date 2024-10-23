@@ -1,10 +1,14 @@
 # Changes
 
-## Version 0.0.20
+## Version 0.0.20 aka "EI: The Simplifier"
 
-- Added "Ship IT Rules CTO" bot: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
-- Changed `Opensource` effect with `sudo`
-- Tweaked wordings on several cards
+- Added "Ship IT Rules CTO" "EI" bot: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
+- Added `Legacy` effect as a separate field
+  to `Friday` and `Hacker's paws` cards
+- Changed `Database`'s social ritual
+- Changed `OpenSource` effect with `sudo`
+- Reworked `Manual` rule about keeping in on the table. It is now a homebrew
+- Simplified a lot of wordings on cards
 - Tweaked rules
 - Changed rules layout
 - Improved "hard" mode rules
@@ -35,13 +39,13 @@
 - Changed `Burnout` to interact with `sudo`
 - Changed `Manual`'s effect with `sudo`
 - Clarified that `Cancel` card cancels cards with `sudo`
-- Changed `RFC`'s social interaction to better suite the new mechanics
-- Changed `Backend`'s social interaction a bit
-- Changed `Frontend`'s social interaction THE LAST TIME!!!
+- Changed `RFC`'s social ritual to better suite the new mechanics
+- Changed `Backend`'s social ritual a bit
+- Changed `Frontend`'s social ritual THE LAST TIME!!!
 - Tweaked `sudo` and `Legacy` descriptions
 - Tweaked `500` and `0 day` descriptions
 - Added a new field to `Manual` that says that it should not be discarded
-- Changed all cards' and social interactions' tone to informal
+- Changed all cards' and social rituals' tone to informal
 - Fixed several printing issues and style details
 - Tweaked wording
 - Tweaked rules
@@ -116,7 +120,7 @@ This version was only released in English.
 - Enlarged `Cloud`'s icons
 - Added blue icons to the defence cards
 - Removed 🕑 icon from `Friday`
-- Reworked `Frontend` social interaction, AGAIN
+- Reworked `Frontend` social ritual, AGAIN
 - Tweaked rules a bit
 
 Printed (4 decks)!
@@ -144,7 +148,7 @@ Printed (5 decks)!
 - Increased the number of `Man in the Middle` cards by 1
 - Changed `Legacy` color from purple to light grey
 - Added 🕑 icon to more cards: `Manual`, `Friday`
-- Reworked `Frontend` social interaction, again
+- Reworked `Frontend` social ritual, again
 - Tweaked multiple wordings on cards
 - Tweaked rules
 
@@ -170,7 +174,7 @@ Printed (36 decks)!
 - Added 🕑 icon to cards that should stay at your table for a turn (`DDoS`)
 - Added 🛡 icon to cards with provocation (`Monitoring`, `Firewall`)
 - Tweaked several wordings in rules and cards
-- Tweaked multiple social interactions' wordings
+- Tweaked multiple social rituals' wordings
 - Tweaked several jokes
 - Improved short rules
 
@@ -183,9 +187,9 @@ Printed (1 deck)!
 - Clarified `Redirect` rules
 - Simplified `Monitoring` and `Firewall` rules: they now don't interact with `sudo`
 - Changed `Supply chain` card: it does not have ⚙️ effect anymore
-- Tweaked `Frontend` social interaction, again
+- Tweaked `Frontend` social ritual, again
 - Tweaked some minor wordings on multiple cards
-- Tweaked multiple other social interactions a bit
+- Tweaked multiple other social rituals a bit
 - Fixed fonts on multiple cards
 - Added "Pytup" rule special card
 
@@ -208,7 +212,7 @@ Printed (15 decks)!
 - Decreased `Hacker's paws` cards by 1
 - Added `Queue` icon to `Cloud` card
 - Added ⚙️ icon to `CI` and `Certificate` to indicate how they are played
-- Changed `Frontend`'s social interaction, once again
+- Changed `Frontend`'s social ritual, once again
 - Tweaked some cards' wordings
 - Tweaked rules for a bit
 - Improved multiple jokes
@@ -238,12 +242,12 @@ Printed (9 decks)!
 - Decreased the amount of `DDoS` by 1
 - Increased the amount of `RFC` cards by 1
 - Decreased the amount of `CI` cards by 1
-- Removed social pseudo-interaction from `Critical Bug`
-- Remove social interaction from `0 day`
+- Removed social pseudo-ritual from `Critical Bug`
+- Remove social ritual from `0 day`
 - Changed `+ sudo?` part on all cards to be `$`
 - Moved special ♻️ sign of reaction cards to the top
 - Changed `Application`'s joke
-- Changed `Frontend`'s social interaction
+- Changed `Frontend`'s social ritual
 - Changed `Meta` cards' color from yellow to brown
 
 Printed (12 decks)!
@@ -259,7 +263,7 @@ Printed (12 decks)!
 - Buffed `OpenSource` card
 - Improved `Microservices`'s joke rendering
 - Improved wordings on some cards
-- Now `Critical Bug` has a new social interaction
+- Now `Critical Bug` has a new social ritual
 - Improved card's schema
 - Improved rules' wordings
 - Now using `draw.io` for schemas
@@ -294,11 +298,11 @@ Printed (1 deck)!
 - Renamed `[Critical] Security issue` to `[Critical] Vulnerability`
 - Reworked `Nope` card, it no longer works against deployment components
 - Clarified rules about `sudo`
-- Changed several social interactions
-- Changed how social interactions should be regulated
+- Changed several social rituals
+- Changed how social rituals should be regulated
 - Changed the amount of multiple cards: now there should be more defence
 - Now all cards note their count in the deck
-- Social interaction is no longer optional
+- Social ritual is no longer optional
 
 Printed (2 decks)!
 
@@ -311,7 +315,7 @@ Printed (2 decks)!
 - Changed the number of defence and attack cards
 - Changed the number of event cards
 - Now `Architecture` cards will have different back cover
-- Reworked social interactions for `Garbage collector`
+- Reworked social rituals for `Garbage collector`
 - Added explicit card type name for all cards
 - Small rules adjustments
 
@@ -329,8 +333,8 @@ Printed (1 deck)!
 - Increased the number of `Research` from 2 to 3
 - Reworked the `Reuse` card into `Garbage collector`,
   now there are 3 `Garbage collector` cards. It used to be 2 `Reuse` cards
-- Moved the social interaction from `Bug` to `Specific bug`
-- Social interactions are reworked to have more replayability
+- Moved the social ritual from `Bug` to `Specific bug`
+- Social rituals are reworked to have more replayability
 - Better wordings and more complete rules
 - Addressed printing issues in card design
 
