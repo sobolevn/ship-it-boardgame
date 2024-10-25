@@ -3,6 +3,9 @@
 ## Version 0.0.20 aka "EI: The Simplifier"
 
 - Added "Ship IT Rules CTO" "EI" bot: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
+- Added a new rule about placing blocked components
+- Added 🚧 icon for blocked components
+- Changed `500` and `0 day` effects
 - Added `Legacy` effect as a separate field
   to `Friday` and `Hacker's paws` cards
 - Changed `Database`'s social ritual
