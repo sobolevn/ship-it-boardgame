@@ -10,6 +10,7 @@
   to `Friday` and `Hacker's paws` cards
 - Changed `Database`'s social ritual
 - Changed `OpenSource` effect with `sudo`
+- Buffed `Hype` effect with `sudo`
 - Reworked `Manual` rule about keeping in on the table. It is now a homebrew
 - Simplified a lot of wordings on cards
 - Tweaked rules
