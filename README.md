@@ -10,7 +10,7 @@ It is built for fun, social interactions, memes, and a little bit of strategy.
 
 No real IT skills are required to play this game :)
 
-With **two** sets of rules included: easy and hard modes!
+With **three** sets of rules included: tutorial, regular, and hard modes!
 
 ## Play
 
