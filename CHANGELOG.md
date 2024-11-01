@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.21
+
+- Changed "tutorial mode" rules a bit
+
 ## Version 0.0.20 aka "EI: The Simplifier"
 
 - Added "Ship IT Rules CTO" "EI" bot: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
