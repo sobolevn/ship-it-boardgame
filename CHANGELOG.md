@@ -3,6 +3,8 @@
 ## Version 0.0.21
 
 - Changed "tutorial mode" rules a bit
+- Tweaked short rules
+- Tweaked rule card
 
 ## Version 0.0.20 aka "EI: The Simplifier"
 
