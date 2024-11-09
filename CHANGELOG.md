@@ -3,7 +3,7 @@
 ## Version 0.0.21
 
 - Restored old rule about placing blocked components
-- Changed `Patch` and `Crutches` social rituals
+- Swapped `Patch` and `Crutches` social rituals
 - Tweaked wordings
 - Changed "tutorial mode" rules a bit
 - Tweaked "hard mode"
