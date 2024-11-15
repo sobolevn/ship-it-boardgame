@@ -2,7 +2,8 @@
 
 ## Version 0.0.21
 
-- Restored old rule about placing blocked components
+- Reverted new rule about blocked components,
+  restored old rule (pre 0.0.20) about placing blocked components
 - Swapped `Patch` and `Crutches` social rituals
 - Tweaked wordings
 - Changed "tutorial mode" rules a bit
@@ -28,6 +29,8 @@
 - Changed rules layout
 - Improved "hard" mode rules
 
+Printed (5 decks)!
+
 ## Version 0.0.19 aka "The New Defence"
 
 - Removed `CI` and `Certificate` cards
@@ -43,6 +46,8 @@
 - Changed `(⚙️ N)` to be `/⚙️N` on cards
 - Tweaked rules
 - Tweaked wordings on several cards
+
+Printed (4 decks)!
 
 ## Version 0.0.18
 
