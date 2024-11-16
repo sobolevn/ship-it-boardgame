@@ -11,6 +11,8 @@
 - Tweaked short rules
 - Tweaked rule card
 
+Printed (23 decks)!
+
 ## Version 0.0.20 aka "EI: The Simplifier"
 
 - Added "Ship IT Rules CTO" "EI" bot: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
