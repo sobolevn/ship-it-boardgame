@@ -1,5 +1,12 @@
 # Changes
 
+## Version 0.0.22
+
+- Improved `Burnout` description
+- Changed `Garbage collector`'s `sudo` effect, it is now more powerful
+- Changed `Handshake`'s `sudo` effect, it is now more powerful
+- Tweaked rules
+
 ## Version 0.0.21
 
 - Reverted new rule about blocked components,
@@ -11,7 +18,7 @@
 - Tweaked short rules
 - Tweaked rule card
 
-Printed (23 decks)!
+Printed (24 decks)!
 
 ## Version 0.0.20 aka "EI: The Simplifier"
 
