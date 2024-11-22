@@ -1,22 +1,19 @@
 # Changes
 
-## Version 0.0.22
-
-- Improved `Burnout` description
-- Changed `Garbage collector`'s `sudo` effect, it is now more powerful
-- Changed `Handshake`'s `sudo` effect, it is now more powerful
-- Tweaked rules
-
 ## Version 0.0.21
 
+- Changed `Garbage collector`'s `sudo` effect, it is now more powerful
+- Changed `Handshake`'s `sudo` effect, it is now more powerful
 - Reverted new rule about blocked components,
   restored old rule (pre 0.0.20) about placing blocked components
 - Swapped `Patch` and `Crutches` social rituals
+- Improved `Burnout` description
 - Tweaked wordings
 - Changed "tutorial mode" rules a bit
 - Tweaked "hard mode"
 - Tweaked short rules
 - Tweaked rule card
+- Tweaked rules
 
 Printed (24 decks)!
 
