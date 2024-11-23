@@ -1,5 +1,10 @@
 # Changes
 
+## Version 0.0.22
+
+- Added a new rule about discarding components,
+  they now give you extra cards if you do this
+
 ## Version 0.0.21
 
 - Changed `Garbage collector`'s `sudo` effect, it is now more powerful
