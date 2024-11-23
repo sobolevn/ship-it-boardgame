@@ -25,7 +25,11 @@ def _validate(cards_path: str, counts: list[int]) -> None:
     card_counts = _read_card_counts(cards_path)
     if card_counts != counts:
         raise ValueError(
-            "Not equal", card_counts, len(card_counts), counts, len(counts)
+            "Not equal",
+            card_counts,
+            len(card_counts),
+            counts,
+            len(counts),
         )
 
 
