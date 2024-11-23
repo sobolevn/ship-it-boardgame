@@ -8,3 +8,6 @@ from typing import Final
 
 # Equals to the number of architecture cards:
 NUMBER_OF_PLAYERS: Final = 5
+
+# Copy marker, which means that the card is the same, but just visially different
+COPY_MARKER: Final = "[copy]"
