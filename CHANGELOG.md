@@ -4,6 +4,7 @@
 
 - Added a new rule about discarding components,
   they now give you extra cards if you do this
+- Adds "Freelance" mode
 
 ## Version 0.0.21
 
