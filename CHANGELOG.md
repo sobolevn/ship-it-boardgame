@@ -2,9 +2,11 @@
 
 ## Version 0.0.22
 
+- Renamed `Application` architecture card to `Monolith`
 - Added a new rule about discarding components,
   they now give you extra cards if you do this
-- Adds "Freelance" mode
+- Added "Freelance" mode
+- Added numbers to `Architecture` cards to support "Freelance" mode with trading
 
 ## Version 0.0.21
 

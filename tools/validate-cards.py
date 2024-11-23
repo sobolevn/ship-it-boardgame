@@ -10,18 +10,23 @@ def _read_card_counts(cards_path: str) -> list[int]:
 
     card_counts = []
     for card_sheet in document.sheets:
+        if card_sheet.name.endswith(meta.COPY_MARKER):
+            continue
+
         cell_value = card_sheet.tables[0].cell("E18").value.strip()
         if cell_value.startswith("="):  # `= number of players`
             card_counts.append(meta.NUMBER_OF_PLAYERS)
         else:
-            card_counts.append(int(cell_value.split(" ")[0]))
+            card_counts.append(int(cell_value.strip().split(" ")[0]))
     return card_counts
 
 
 def _validate(cards_path: str, counts: list[int]) -> None:
     card_counts = _read_card_counts(cards_path)
     if card_counts != counts:
-        raise ValueError("Not equal", card_counts, counts)
+        raise ValueError(
+            "Not equal", card_counts, len(card_counts), counts, len(counts)
+        )
 
 
 def main() -> None:
@@ -40,7 +45,7 @@ def main() -> None:
     parsed_args = parser.parse_args()
     _validate(
         parsed_args.cards,
-        counts.read_counts(parsed_args.counts),
+        counts.read_counts(parsed_args.counts, squash_copies=True),
     )
 
 
