@@ -2,6 +2,8 @@
 
 ## Version 0.0.22
 
+- Removed `P2P` card
+- Increased the number of `Garbage collector` cards by 1
 - Renamed `Application` architecture card to `Monolith`
 - Added a new rule about discarding components,
   they now give you extra cards if you do this
