@@ -1,21 +1,18 @@
 # Changes
 
-## Version 0.0.22
+## Version 0.0.21
 
 - Removed `P2P` card
 - Increased the number of `Garbage collector` cards by 1
 - Renamed `Application` architecture card to `Monolith`
 - Added a new rule about discarding components,
   they now give you extra cards if you do this
-- Added "Freelance" mode
-- Added numbers to `Architecture` cards to support "Freelance" mode with trading
-
-## Version 0.0.21
-
 - Changed `Garbage collector`'s `sudo` effect, it is now more powerful
 - Changed `Handshake`'s `sudo` effect, it is now more powerful
 - Reverted new rule about blocked components,
   restored old rule (pre 0.0.20) about placing blocked components
+- Added "Freelance" mode
+- Added numbers to `Architecture` cards to support "Freelance" mode with trading
 - Swapped `Patch` and `Crutches` social rituals
 - Improved `Burnout` description
 - Tweaked wordings
