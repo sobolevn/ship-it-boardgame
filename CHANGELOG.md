@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.22
+
+- Tweaked rules
+
 ## Version 0.0.21
 
 - Removed `P2P` card
