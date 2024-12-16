@@ -2,6 +2,7 @@
 
 ## Version 0.0.22
 
+- Tweaked wordings
 - Tweaked rules
 
 ## Version 0.0.21
