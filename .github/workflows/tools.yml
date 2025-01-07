@@ -5,11 +5,11 @@ on:
     branches:
       - master
     paths:
-      - "tools/**"
+      - "tools/**/*"
       - '.github/workflows/tools.yml'
   pull_request:
     paths:
-      - "tools/**"
+      - "tools/**/*"
       - '.github/workflows/tools.yml'
   workflow_dispatch:
 
@@ -42,7 +42,6 @@ jobs:
         run: |
           cd tools
           poetry config virtualenvs.in-project true
-          poetry run pip install -U pip
           poetry install
 
       - run: cd tools && poetry run mypy *.py
