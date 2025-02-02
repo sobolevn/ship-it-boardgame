@@ -1,4 +1,4 @@
-# Tools for Shit IT!
+# Tools for Ship IT!
 
 ## Installing dependencies
 
