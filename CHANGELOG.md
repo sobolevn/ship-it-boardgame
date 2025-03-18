@@ -5,6 +5,8 @@
 - Tweaked wordings
 - Tweaked rules
 
+Printed (7 decks)!
+
 ## Version 0.0.21
 
 - Removed `P2P` card
