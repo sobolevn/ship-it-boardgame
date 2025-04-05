@@ -1,11 +1,15 @@
 # Changes
 
+## Versison 0.0.23
+
+- Tweaked wordings
+
 ## Version 0.0.22
 
 - Tweaked wordings
 - Tweaked rules
 
-Printed (7 decks)!
+Printed (11 decks)!
 
 ## Version 0.0.21
 
