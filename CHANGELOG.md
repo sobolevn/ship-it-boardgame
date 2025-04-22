@@ -2,6 +2,7 @@
 
 ## Versison 0.0.23
 
+- Now `Hype` works with `Known Legacy` mechanic
 - Tweaked wordings
 
 ## Version 0.0.22
