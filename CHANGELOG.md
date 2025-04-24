@@ -3,6 +3,8 @@
 ## Versison 0.0.23
 
 - Now `Hype` works with `Known Legacy` mechanic
+- Now `Cloud` works with `Known Legacy` mechanic
+- Now you can turn other people's `Cloud` cards with `sudo`
 - Tweaked wordings
 
 ## Version 0.0.22
