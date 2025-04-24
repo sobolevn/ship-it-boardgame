@@ -5,6 +5,7 @@
 - Now `Hype` works with `Known Legacy` mechanic
 - Now `Cloud` works with `Known Legacy` mechanic
 - Now you can turn other people's `Cloud` cards with `sudo`
+- Make `It's time to deal with legacy` text a lot bigger
 - Tweaked wordings
 
 ## Version 0.0.22
