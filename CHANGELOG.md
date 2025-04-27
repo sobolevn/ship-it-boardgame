@@ -1,5 +1,10 @@
 # Changes
 
+## Version 0.0.24
+
+- Changed `Hype`'s effect with `Known Legacy` mechanic
+- Tweaked rules
+
 ## Versison 0.0.23
 
 - Now `Hype` works with `Known Legacy` mechanic
