@@ -2,7 +2,11 @@
 
 ## Version 0.0.24
 
+- Now `Garbage Collector` works with `Known Legacy` mechanic
+- Increased the number of `OpenSource` cards by 1
+- Decreased the number of `Man in the Middle` cards by 1
 - Changed `Hype`'s effect with `Known Legacy` mechanic
+- Tweaked wordings
 - Tweaked rules
 
 ## Versison 0.0.23
