@@ -9,6 +9,8 @@
 - Tweaked wordings
 - Tweaked rules
 
+Printed (11 decks)!
+
 ## Versison 0.0.23
 
 - Now `Hype` works with `Known Legacy` mechanic
@@ -16,6 +18,8 @@
 - Now you can turn other people's `Cloud` cards with `sudo`
 - Make `It's time to deal with legacy` text a lot bigger
 - Tweaked wordings
+
+Printed (9 decks)!
 
 ## Version 0.0.22
 
