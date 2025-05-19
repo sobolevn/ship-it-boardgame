@@ -1,5 +1,9 @@
 # Changes
 
+## Version 0.0.25
+
+- Added new "hardcore" rules with 🪟 modificator
+
 ## Version 0.0.24
 
 - Now `Garbage Collector` works with `Known Legacy` mechanic
