@@ -3,6 +3,9 @@
 ## Version 0.0.25
 
 - Added new "hardcore" rules with 🪟 modificator
+- Now `Manual` can attach social rituals to many new game mechanics
+- Tweaked wordings
+- Tweaked rules
 
 ## Version 0.0.24
 
