@@ -4,6 +4,7 @@
 
 - Added new "hardcore" rules with 🪟 modificator
 - Now `Manual` can attach social rituals to many new game mechanics
+- Changed `Database` social ritual a little bit
 - Tweaked wordings
 - Tweaked rules
 
