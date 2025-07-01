@@ -13,7 +13,7 @@ python = "^3.11"
 
 numbers-parser = "^4.15.1"
 pypdfium2 = "^4.30.1"
-pillow = "^11.2.1"
+pillow = "^11.3.0"
 
 [tool.poetry.group.dev.dependencies]
 mypy = "^1.16"
