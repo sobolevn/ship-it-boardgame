@@ -8,6 +8,8 @@
 - Tweaked wordings
 - Tweaked rules
 
+Printed (20 decks)!
+
 ## Version 0.0.24
 
 - Now `Garbage Collector` works with `Known Legacy` mechanic
