@@ -234,14 +234,14 @@ files = [
 
 [[package]]
 name = "numbers-parser"
-version = "4.15.1"
+version = "4.16.1"
 description = "Read and write Apple Numbers spreadsheets"
 optional = false
 python-versions = "<4.0,>=3.9"
 groups = ["main"]
 files = [
-    {file = "numbers_parser-4.15.1-py3-none-any.whl", hash = "sha256:1adfd674f8c515659506ae4b3f4650f0db5d7eb41a5af6349a6a579813f11398"},
-    {file = "numbers_parser-4.15.1.tar.gz", hash = "sha256:eab0741a7f09243e8266d11b78f40763aca71788be0fb686f6198d0c1d700baf"},
+    {file = "numbers_parser-4.16.1-py3-none-any.whl", hash = "sha256:64251624c6c9a5e44e3b35e7adfbbb6822838028162c42160dc311413e33c691"},
+    {file = "numbers_parser-4.16.1.tar.gz", hash = "sha256:1c18c2bdb850f9321c9c4015952b3a74e803965446bd2bb0a8860bfde0ad3556"},
 ]
 
 [package.dependencies]
@@ -249,8 +249,8 @@ compact-json = ">=1.1.3,<2.0.0"
 enum-tools = ">=0.11"
 importlib-resources = ">=6.1"
 protobuf = ">=4.0,<6.0"
-python-dateutil = ">=2.9.0.post0,<3.0.0"
-python-snappy = ">=0.7,<0.8"
+python-dateutil = ">=2.9.0.post0,<3.0.0.0"
+python-snappy = ">=0.7,<1.0"
 setuptools = ">=70.0.0"
 sigfig = ">=1.3.3,<2.0.0"
 
@@ -579,4 +579,4 @@ files = [
 [metadata]
 lock-version = "2.1"
 python-versions = "^3.11"
-content-hash = "9413128e3c315dfbaa90d7ddb64c8e67005c652fc2f36ce8e4fc1217bd8ce157"
+content-hash = "fa96672ed2f5259d22307c7e88487fa7475a5ca37115c022c4915615d6b3b45c"
