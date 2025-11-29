@@ -21,7 +21,7 @@ Printed (20 decks)!
 
 Printed (11 decks)!
 
-## Versison 0.0.23
+## Version 0.0.23
 
 - Now `Hype` works with `Known Legacy` mechanic
 - Now `Cloud` works with `Known Legacy` mechanic
@@ -91,7 +91,7 @@ Printed (5 decks)!
 - Increased the number of `sudo` cards by 1
 - Increased the number of `Burnout` cards by 1
 - Changed `Not a bug` and `Patch` card to
-  also take atack card on succesful defence with `sudo`
+  also take attack card on successful defence with `sudo`
 - Changed `Cloud` to interact with `sudo`
 - Changed `Cloud`'s icons
 - Changed `(⚙️ N)` to be `/⚙️N` on cards
@@ -187,7 +187,7 @@ This version was only released in English.
 - Changed `OpenSource` rule: you now put cards openly
 - Changed `Vulnerability` symbol from ▪ to ɷ
 - Added icons to `Frontend` / `Backend` / `Database` components
-- Added component icons to Archetecture cards
+- Added component icons to Architecture cards
 - Enlarged `Cloud`'s icons
 - Added blue icons to the defence cards
 - Removed 🕑 icon from `Friday`

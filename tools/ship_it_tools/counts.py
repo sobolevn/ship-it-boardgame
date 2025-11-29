@@ -8,7 +8,7 @@ def read_counts(
     *,
     squash_copies: bool = False,
 ) -> list[int]:
-    """Return the list of ints of cards' counts definned in `counts.numbers`."""
+    """Return the list of ints of cards' counts defined in `counts.numbers`."""
     document = numbers_parser.Document(counts_path)
     table = document.sheets[0].tables[0]
 

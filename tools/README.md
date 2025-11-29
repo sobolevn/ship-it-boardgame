@@ -16,7 +16,7 @@ sudo apt-get -y install libsnappy-dev
 poetry install
 ```
 
-For Windows you can follow: https://pypi.org/project/numbers-parser/
+For Windows, you can follow: https://pypi.org/project/numbers-parser/
 
 ## Making a release
 

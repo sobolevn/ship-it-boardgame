@@ -17,7 +17,7 @@ https://github.com/sobolevn/ship-it-boardgame/tree/master/tools
 ## Creating a custom deck
 
 When you have all the resources for the game,
-you can double check them in your folder:
+you can double-check them in your folder:
 
 ![tts-folder](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/assets/tts/tts-folder.png)
 
