@@ -16,7 +16,7 @@ pypdfium2 = "^5.7.0"
 pillow = "^12.2.0"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.20"
+mypy = ">=1.20,<3.0"
 types-pillow = "^10.2"
 
 
