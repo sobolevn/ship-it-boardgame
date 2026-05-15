@@ -1,5 +1,12 @@
 # Changes
 
+## Version 0.0.26
+
+- Added new "hardcore" rule 🪟 to `Crutches`
+- Changed `Crutches`'s social interaction a little bit
+- Changed `RFC` action to require to show your hand, if you don't have a card
+- Fixed several wordings
+
 ## Version 0.0.25
 
 - Added new "hardcore" rules with 🪟 modificator
@@ -8,7 +15,7 @@
 - Tweaked wordings
 - Tweaked rules
 
-Printed (20 decks)!
+Printed (40 decks)!
 
 ## Version 0.0.24
 
