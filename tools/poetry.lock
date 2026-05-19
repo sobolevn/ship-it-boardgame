@@ -430,14 +430,14 @@ files = [
 
 [[package]]
 name = "numbers-parser"
-version = "4.18.3"
+version = "4.18.4"
 description = "Read and write Apple Numbers spreadsheets"
 optional = false
 python-versions = ">=3.10"
 groups = ["main"]
 files = [
-    {file = "numbers_parser-4.18.3-py3-none-any.whl", hash = "sha256:1e069eabe496853d37b5661751466f33b3f52970593b75dc9c2e5c21727f8df6"},
-    {file = "numbers_parser-4.18.3.tar.gz", hash = "sha256:72f4cd632f36b78e8c82376a75db29b1b8f7e2ea9b20db5f73bed439d2c208c1"},
+    {file = "numbers_parser-4.18.4-py3-none-any.whl", hash = "sha256:5971e69cf02b5479a2d4030925503f7c6ebca19380d0c680510ab47570030a6c"},
+    {file = "numbers_parser-4.18.4.tar.gz", hash = "sha256:a4b174a9815d403fc659f2b264adb25938b368dacf6f737fc2185ecd43ea470d"},
 ]
 
 [package.dependencies]
