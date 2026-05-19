@@ -8,6 +8,11 @@
 - Tweaked wordings
 - Tweaked rules
 
+### Boosters
+
+- Updated `Steaming` booster
+- Added `Soft Skills` booster
+
 ## Version 0.0.25
 
 - Added new "hardcore" rules with 🪟 modificator
