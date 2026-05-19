@@ -12,6 +12,7 @@
 
 - Updated `Steaming` booster
 - Added `Soft Skills` booster
+- Added `NDA` and `Template` cards for `Soft Skills` booster
 
 ## Version 0.0.25
 
