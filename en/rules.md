@@ -10,6 +10,7 @@ The goal of the game is to build a project out of components that matches a give
 
 > **Note on card names:** the physical cards are currently printed in Russian.
 > Card names in this translation are given in English, with the original Russian name in parentheses on first mention.
+> See the [card reference](cards.md) for an English translation of every card.
 
 Questions or suggestions about the game?
 Join our chat:
@@ -41,7 +42,7 @@ Symbols:
 - 👥 – players
 - ⚙️ – you have a component on the table
 - 🚧 – block: this type of component cannot be played
-- 🪟 – special modifier for playing in "stuffy" mode
+- 🪟 – special modifier for [hard mode](#hard-mode)
 
 
 ## Setup
@@ -72,7 +73,7 @@ For example: if there are three of you, keep three each of "Database", "Backend"
 
 If you were dealt event cards, shove them somewhere into the middle of the deck.
 Draw new cards in their place. Repeat if necessary.
-Event cards are not resolved *only* during the initial deal.
+The initial deal is the *only* time event cards are not resolved.
 
 
 ## Gameplay
@@ -94,14 +95,14 @@ If you have no cards in your hand at the start of your turn, you may draw 5 card
 ### Taking actions
 
 On your turn you can:
-- Play 1 component card: lay it out on the table, or exchange it and return it to the deck
+- Play 1 component card: lay it out on the table, or return it to the deck in exchange for other cards
 - Play any number of other cards
 - If you have not played any cards this turn, you can always skip your turn and draw one extra card. Event cards and reactions do not count as playing cards.
 
 Actions can be taken in any order.
 For example:
 1. Play attack cards
-2. Receive a component from an opponent
+2. Get a component from an opponent
 3. Lay a component out on the table
 
 If the deck runs out during your turn, shuffle the discard pile and use it.
@@ -150,10 +151,10 @@ By the way, if you returned your component from the table to your hand, that com
 
 ### Defense
 
-Use reaction cards ↩️ ("Excuse" ("Отговорка"), "Patch" ("Патч"), "Workaround" ("Костыли")) to defend against different types of attacks!
+Use reaction cards ↩️ ("Not a Bug" ("Отговорка"), "Patch" ("Патч"), "Crutches" ("Костыли")) to defend against different types of attacks!
 You also have "sudo" cards to power up both attack and defense.
 
-For details, see the [FAQ](https://github.com/sobolevn/ship-it-boardgame/blob/master/ru/faq.md#%D0%BA%D0%B0%D0%BA-%D1%80%D0%B0%D0%B7%D1%8B%D0%B3%D1%80%D1%8B%D0%B2%D0%B0%D1%8E%D1%82%D1%81%D1%8F-%D0%BA%D0%B0%D1%80%D1%82%D1%8B-%D0%B0%D1%82%D0%B0%D0%BA%D0%B8) (in Russian)!
+For details, see the [FAQ](faq.md#how-do-attack-cards-work)!
 
 
 ## Social rituals
@@ -166,14 +167,14 @@ The effect of the played card is not cancelled.
 
 The Meta card "Manual" adds even more chaos, since it lets you invent unique social rituals for different actions. The rules are the same: if you get caught not performing a social ritual, a card gets pulled from your hand!
 
-If you did something against the rules but nobody noticed while it was being played, that's how it should be. You have to pay attention to the game! But if someone notices before the next game action, the action is cancelled and you are punished the same way: a card is pulled from your hand.
+If you did something against the rules and nobody noticed while it was being played, then so be it. You have to pay attention to the game! But if someone notices before the next game action, the action is cancelled and you are punished the same way: a card is pulled from your hand.
 
 
 ## Victory
 
 If at the end of your turn you have the set of components on the table that your "Architecture" card requires, congratulations, you've won! Show your "Architecture" card to everyone else.
 
-You can keep playing until only one loser remains. Players who have finished discard their cards.
+You can keep playing until only one loser remains. Players who have won drop out and discard their cards.
 The loser deals the cards next time, and the winners may call them "Junior" for the whole next game.
 
 If a game is interrupted before it ends, the official winner is the player who has the project on GitHub with the most stars.
@@ -184,7 +185,7 @@ If a game is interrupted before it ends, the official winner is the player who h
 Tips for picking a mode:
 - First 1–2 games: "Tutorial" mode
 - Games 3–4: regular mode, without any changes
-- After that: "stuffy" mode
+- After that: hard mode
 
 ### Tutorial mode
 
@@ -195,9 +196,9 @@ There are only a few changes:
 - Always deal 5 cards at the very start
 - You can play only 3 cards per turn (including 1 component)
 - No hand limit
-- All components always stay in the deck
+- All component cards always stay in the deck (don't remove the extra ones)
 
-We don't recommend playing this mode for more than two games. Move on to the regular and "stuffy" modes as soon as you can to get the most out of the game!
+We don't recommend playing this mode for more than two games. Move on to the regular mode and hard mode as soon as you can to get the most out of the game!
 
 ### Freelance mode
 
@@ -208,27 +209,30 @@ Changes:
 - Now you have to bid for "Architecture" cards
 - Before the game starts, after the black cards from the deal have been replaced, each player may return several cards to the deck, in normal turn order
 - The maximum number of cards that can be returned to the deck equals the number of players
-- Players choose "Architecture" cards from all those available, without showing their choice to others, in order from the player who discarded the most cards to the player who discarded the fewest
-- If two or more players discarded the same number of cards, the order is resolved further: the tied players each take a free "Architecture" card, and whoever has the higher "Task" number on the card chooses first. The "Architecture" cards used for the tie-break are returned to the shared pile
+- Players choose "Architecture" cards from all those available, without showing their choice to others, in order from the player who returned the most cards to the player who returned the fewest
+- If two or more players returned the same number of cards, the order is resolved further: the tied players each take a free "Architecture" card, and whoever has the higher "Task" number on the card chooses first. The "Architecture" cards used for the tie-break are returned to the shared pile
 
 Do not play this mode together with "Tutorial" mode.
 
-### Stuffy mode
+### Hard mode
 
-If you have played the game several times already, have read all the rules at least once, and are ready for new adventures, there are special "stuffy" rules for you: you may pull a random card from a player's hand for any slip-up they make.
+> **Translator's note:** in Russian this is the "душный" ("stuffy") mode.
+> "Stuffy" is Russian slang for an annoying nitpicker, hence the 🪟 window symbol.
 
-You must also carefully watch for the special "stuffy" mode modifiers on the cards: the 🪟 symbol (somebody open a window already! it's so stuffy in here!)
+If you have played the game several times already, have read all the rules at least once, and are ready for new adventures, there are special hard mode rules for you: you may pull a random card from a player's hand for any slip-up they make.
 
-These actions must additionally be acted out when the card is played. They supplement the existing social rituals on the cards. In "regular" mode they mean nothing.
+You must also carefully watch for the special hard mode modifiers on the cards: the 🪟 symbol (somebody open a window already! it's so stuffy in here!)
+
+These actions must additionally be acted out when the card is played. They supplement the existing social rituals on the cards. In regular mode they mean nothing.
 
 An incomplete list of punishable mistakes. You must not:
-- take too long thinking during your turn
+- stall for too long during your turn
 - not know whose turn it is
 - look at your phone during the game, get distracted
 - step away from the game table
 - drop or damage cards
 - act out a social ritual insufficiently (a "Cancel" ("Отмена") that isn't dramatic enough, a "Burnout" ("Выгорание") that isn't toxic enough)
-- act out "stuffy" mode 🪟 modifiers insufficiently
+- act out hard mode 🪟 modifiers insufficiently
 - wrongly call out a social ritual as not performed (when the player did perform it, or didn't have to)
 - get minor details of the rules wrong
 - draw too many or too few cards when drawing
@@ -236,19 +240,19 @@ An incomplete list of punishable mistakes. You must not:
 - draw two cards at the start of your turn and keep playing
 - try to play a second component in one turn
 - try to lay out a 🚧 blocked component type
-- touch your own or someone else's cloud for no reason while it's on the table
+- touch your own or someone else's "Cloud" for no reason while it's on the table
 - take someone else's components during an attack too early
 - not show the card when playing the "Garbage Collector" ("Сборщик мусора") card
 - exchange cards face down during "Handshake"
 - stack the discard pile face down
 
-And any other rules you find stuffy and fun enough for your group.
+And any other rules you find nitpicky and fun enough for your group.
 
 ### House rules
 
-We also have a [special section](https://github.com/sobolevn/ship-it-boardgame/blob/master/ru/homebrew.md) (in Russian) for "house" (or "homebrew") variants of the game rules. If you came up with something cool that you always use, send a PR with the changes or [write in the chat](https://t.me/ship_it_boardgame)!
+We also have a [special section](homebrew.md) for "house" (or "homebrew") variants of the game rules. If you came up with something cool that you always use, send a PR with the changes or [write in the chat](https://t.me/ship_it_boardgame)!
 
 
 ## Still have questions?
 
-See the full explanation of all the details in the [FAQ](https://github.com/sobolevn/ship-it-boardgame/blob/master/ru/faq.md) (in Russian)!
+See the full explanation of all the details in the [FAQ](faq.md)!
