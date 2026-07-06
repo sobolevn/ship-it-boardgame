@@ -21,7 +21,7 @@ We also have a bot, "Ship IT Rules CTO", that can help with the rules and explai
 
 ## Cards
 
-![card example](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/schemas/card.jpg)
+![card example](schemas/card.jpg)
 
 There are the following card types:
 - Architecture (white) – your objective for the game, needed to win
@@ -79,7 +79,7 @@ Event cards are not resolved *only* during the initial deal.
 
 The winner of the previous game, or whoever dealt the cards this time, goes first. Play then proceeds clockwise.
 
-![table example](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/schemas/game-process.jpg)
+![table example](schemas/game-process.jpg)
 
 ### Start of the turn
 
@@ -158,7 +158,7 @@ For details, see the [FAQ](https://github.com/sobolevn/ship-it-boardgame/blob/ma
 
 ## Social rituals
 
-![card example](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/schemas/card.jpg)
+![card example](schemas/card.jpg)
 
 Some cards have a special condition (see the "social ritual" example in the picture above). These rituals must be performed when the card is played. It *must* be performed before your next action this turn. If a player forgets, can't, or doesn't want to perform it, the first player to notice the violation may pull a random card out of their hand.
 
