@@ -21,6 +21,7 @@ With **three** sets of rules included: tutorial, regular, and hard modes!
 ## Rules and languages
 
 - [Russian](https://github.com/sobolevn/ship-it-boardgame/blob/master/ru/rules.md) 🇷🇺
+- [English](en/rules.md) 🇬🇧
 
 ChatGPT assistant called "Ship IT Rules CTO" to help you with the rules: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
 
