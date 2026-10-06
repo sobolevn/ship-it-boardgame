@@ -14,6 +14,8 @@
 - Added `Soft Skills` booster
 - Added `NDA` and `Template` cards for `Soft Skills` booster
 
+Printed (10 decks)!
+
 ## Version 0.0.25
 
 - Added new "hardcore" rules with 🪟 modificator
