@@ -35,7 +35,7 @@ Some components (if the card says so) can be returned to the deck (somewhere nea
 
 When you play a "Cloud" card, you choose which component it replaces (it can replace absolutely any component). Then you lay the card out at the right angle, so that neither you nor the other players forget which component you replaced.
 
-While the "Cloud" is on the table, it can't change its type. To change the type of component a "Cloud" replaces, play "sudo" on your turn and rotate the "Cloud" card to the right side. This works on your own "Cloud" or someone else's.
+While the "Cloud" is on the table, it can't change its type by itself. To rotate a "Cloud" (your own or someone else's), play a "sudo" card on its own on your turn, not on any other card, and turn the "Cloud" to the right side. This is an exception to the general rule of the "sudo" card ("on your own cards"): this is how the "sudo" strip on the "Cloud" card itself works. You don't need to have your own "Cloud" on the table to do this.
 
 If you have a "Known Legacy", you can only rotate your own "Cloud" when playing "sudo".
 
@@ -59,13 +59,15 @@ You can't take an Architecture card.
 If that player doesn't have the requested card,
 they must show you their hand to confirm that the card isn't there.
 
-When played with "sudo", you can choose who gets the card. For example, this way you can move a "Legacy" from one player to another. You can't play this card on yourself.
+You can't play "RFC" on yourself.
+
+When played with "sudo", you can choose who gets the card (anyone except you). For example, this way you can move a "Legacy" from one player to another.
 
 Cards that were just 🚧 blocked are very easy to take, because you know exactly what you are taking.
 
 ### How does the "Man in the Middle" card work?
 
-This card lets you take a card that another player has just drawn into their hand and put it into yours instead. If the player draws several cards, you take a random one of the cards they drew. Watch out for "Legacy"!
+This card lets you take a card that another player has just drawn into their hand and put it into yours instead. If the player draws several cards, you take the last card they drew (which is why cards are drawn from the deck one at a time). Watch out for "Legacy"!
 
 With the "OpenSource" card, players take cards one at a time, so snatch the right card at the right moment.
 
@@ -78,6 +80,10 @@ When played with "sudo", you take all the cards the player drew, however many th
 Players put cards face up in the center of the table, in turn order. They take them in turn order too.
 
 If a player put down a "Legacy" and got it back, it counts as receiving it from another player. That player follows the "Legacy" rule and discards cards.
+
+There are exactly as many cards in the center of the table as there are players. If you have a component on the table and take 2 cards, the last player in turn order gets no card. That is intended.
+With "sudo", as many cards are put down from the deck as there are players.
+A player with no cards in hand puts nothing down, but still takes a card when their turn comes.
 
 
 ## How do attack cards work?
@@ -99,10 +105,10 @@ However, note that bugs and vulnerabilities may be blocked by different defense 
 
 ### Example: attacking a component with "sudo"
 
-Suppose Alice played a defense card. Now Bob plays a "sudo" card to break through her regular defense.
+Suppose Alice played the "Crutches" defense card. Now Bob plays a "sudo" card to break through her regular defense.
 
 Possible outcomes:
-- Alice also plays a "sudo" card. The defense card, the attack card, and both "sudo" cards go to the discard pile, and the component stays on Alice's table
+- Alice also plays a "sudo" card. "Crutches", the attack card, and both "sudo" cards go to the discard pile, and the component stays on Alice's table. (If Alice had defended with "Not a Bug" or "Patch", the attack card would go to her hand instead; see the next example)
 - If Alice can't or doesn't want to play a "sudo" card, her defense fails. She has to fulfill the condition on the "Bug" card. The "sudo", the attack card, and the defense card go to the discard pile
 
 You can't play "sudo" together with defense cards unless the attacker played "sudo".
@@ -136,7 +142,7 @@ For example:
 - "sudo" is played after a defense card, if the attacker added a "sudo" on top
 - "sudo" can be played right away with "Hype", "OpenSource", "Man in the Middle", "Burnout", etc.
 
-You can play 2 or more "sudo" cards with cards where it makes sense. For example: a "Hype" card + 2 "sudo" cards let you draw +2 cards from the deck, +1 for each "sudo".
+You can play 2 or more "sudo" cards with cards where it makes sense. For example: a "Hype" card + 2 "sudo" cards let you draw +2 cards from the deck (or +4 if you have a component on the table), +1/⚙️2 for each "sudo".
 
 
 ## How do Meta cards work?
@@ -148,7 +154,7 @@ Any player can play "Cancel" as a ↩️ reaction to a card played by another pl
 
 You can only cancel the most recent card.
 Cancelled cards go to the discard pile.
-If more than two players are involved in an action (for example, with "Redirect" or "RFC" + "sudo"), any of the players involved can cancel the card's effect.
+If several players are involved in an action (for example, with "Redirect", "OpenSource", or "RFC" + "sudo"), any player can still cancel the card, including a player who is not involved in the action.
 
 Example: Alice uses an "RFC" card to ask Bob to give her a card. Bob plays a "Cancel" card. The "RFC" and "Cancel" cards go to the discard pile.
 
@@ -176,13 +182,15 @@ If the attack is redirected to the attacker, they can only play defensive reacti
 
 If a player played "Redirect" with a "sudo" card when redirecting the attack, they temporarily become the attacker. This means they can: choose the component when attacking with a "Specific Vulnerability" or a "Specific Bug"; take the card obtained through vulnerabilities; play another "sudo" of their own if the defender plays a defense card.
 
+The attacker can answer a defense card with "sudo" only once. If the defender answers that "sudo" with their own "sudo", the attack is blocked: the attacker cannot add a second "sudo".
+
 Once the attack is over, the turn returns to the player who originally played the attack card.
 
 Example:
 - Alice plays "Specific Bug" on Bob's component
 - Bob plays "Not a Bug"
 - Alice plays "sudo"
-- Bob plays "Redirect" on Charlie, and Bob chooses Charlie's component to attack
+- Bob plays "Redirect" on Charlie. Since Bob did not play "sudo" with his "Redirect", Alice (the attacker) chooses which of Charlie's components to attack
 - Charlie plays "Crutches" with "sudo"
 - The "Specific Bug", "Not a Bug", "Redirect", and "Crutches" cards and 2 "sudo" cards go to the discard pile. The component stays on Charlie's table
 - The turn returns to Alice
@@ -234,9 +242,9 @@ You can get rid of a "Legacy":
 - By letting another player pull it out of your hand
 - With card-swapping cards: "OpenSource", "Handshake"
 - With "Burnout" + "sudo"
-- If someone takes it from you with "RFC" + "sudo"
+- If someone takes it from you with "RFC" (with or without "sudo")
 
-Card effects with a gray "Known Legacy" strip only apply when other players know that the player has a "Legacy". If a player received a "Legacy" and didn't give themselves away, the effect doesn't apply.
+Card effects with a gray "Known Legacy" strip only apply when other players know that the player has a "Legacy". A "Legacy" counts as known if the other players have seen it: it was received from anywhere other than the deck, shown during an "RFC" check, put into an "OpenSource" (even if the "OpenSource" was then cancelled), or revealed in any other way. If a player drew a "Legacy" from the deck and didn't give themselves away, the effect doesn't apply.
 
 If a "Known Legacy" effect contains a - or a +, such effects stack. For example: discarding +1 card with "Hacker's Paws". If you have two known "Legacy" cards, you discard 2 extra cards. However, effects without a - or a +, such as skipping a turn, don't stack.
 
@@ -247,6 +255,6 @@ Event cards are special. The player is expected to fulfill their condition immed
 
 In some cases, the player can't carry out the event's action. For example, the player drew a "500" card but currently has no components on the table. Then the player is lucky: they don't have to do that part of the action, they just skip a turn.
 
-While events are being resolved, you can't play new cards, except defensive reactions.
+While events are being resolved, you can't play new cards, except defense cards ("Not a Bug", "Patch", "Crutches"). "Redirect" and "sudo" don't work against events: an event is not an attack card and has no attacker.
 
 If you receive events outside of your turn (for example, from a "Man in the Middle" card), the event is resolved on your turn, as your first card. In that case, event cards still don't count as "cards in hand": they lie on the table next to the player.

@@ -1,5 +1,10 @@
 # Changes
 
+## Version 0.0.27
+
+- Tweaked a lot of rules for better readability and consistency
+- Officially support `en/` version
+
 ## Version 0.0.26
 
 - Added new "hardcore" rule 🪟 to `Crutches`
@@ -10,7 +15,7 @@
 
 ### Boosters
 
-- Updated `Steaming` booster
+- Updated `Streaming` booster
 - Added `Soft Skills` booster
 - Added `NDA` and `Template` cards for `Soft Skills` booster
 
