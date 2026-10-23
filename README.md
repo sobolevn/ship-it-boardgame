@@ -5,7 +5,7 @@
 
 ![logo](https://raw.githubusercontent.com/sobolevn/ship-it-boardgame/master/ru/graphics/name.png)
 
-Boardgame for people who love IT.
+A board game for people who love IT.
 It is built for fun, social interactions, memes, and a little bit of strategy.
 
 No real IT skills are required to play this game :)
@@ -15,7 +15,7 @@ With **three** sets of rules included: tutorial, regular, and hard modes!
 ## Play
 
 - Order a physical copy: [mail@sobolevn.me](mailto:mail@sobolevn.me)
-- Print your own physical copy from [the latest release](https://github.com/sobolevn/ship-it-boardgame/releases/latest), it is free!
+- Print your own physical copy from [the latest release](https://github.com/sobolevn/ship-it-boardgame/releases/latest): it is free!
 - [Online via Table Top Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3172213526) or create your own [Table Top Simulator](https://github.com/sobolevn/ship-it-boardgame/blob/master/table-top-simulator.md) version
 
 ## Rules and languages
@@ -23,7 +23,7 @@ With **three** sets of rules included: tutorial, regular, and hard modes!
 - [Russian](https://github.com/sobolevn/ship-it-boardgame/blob/master/ru/rules.md) 🇷🇺
 - [English](en/rules.md) 🇬🇧
 
-ChatGPT assistant called "Ship IT Rules CTO" to help you with the rules: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
+A ChatGPT assistant called "Ship IT Rules CTO" to help you with the rules: https://chatgpt.com/g/g-NivGnZ2kM-ship-it-rules-cto
 
 ## TODO
 
@@ -34,18 +34,18 @@ What I still have to do:
 - [x] Play it myself, make others play it
 - [x] Collect feedback (please create GitHub [issues](https://github.com/sobolevn/ship-it-boardgame/issues) or [discussions](https://github.com/sobolevn/ship-it-boardgame/discussions) for any feedback)
 - [x] Improve the game: the wording, balance, some mechanics
-- [x] Work on branding: logo, card design, etc
+- [x] Work on branding: logo, card design, etc.
 - [x] Create tooling to be able to use [Table Top Simulator](https://steamcommunity.com/sharedfiles/filedetails/?id=3172213526) for playtests
-- [ ] Translate the better version of it into english
+- [ ] Translate the better version of it into English
 - [ ] Maybe even publish it officially
 
-All possible income of this game will support my other OpenSource projects!
+All income from this game will support my other OpenSource projects!
 
 ## Inspirations
 
-What this game is like?
+What is this game like?
 
-I once played https://www.deployordie.com/ game,
+I once played the https://www.deployordie.com/ game,
 which motivated me to invent my own game in a similar setting.
 
 Some people say that this game has some similarities to
@@ -54,9 +54,9 @@ Some people say that this game has some similarities to
 
 ## Attributions
 
-Thanks a lot to all my friends, who helped me with ideas, playtesting, and rules.
+Thanks a lot to all my friends who helped me with ideas, playtesting, and rules.
 
-Please, add yourself to `AUTHORS` if you contributed in any way :)
+Please add yourself to `AUTHORS` if you contributed in any way :)
 
 Other projects that I use:
 - Icons: [FontAwesome](https://github.com/FortAwesome/Font-Awesome/blob/6.x/LICENSE.txt)
@@ -68,4 +68,4 @@ Other projects that I use:
 TLDR:
 - You can print it and play with your friends for free!
 - You can fork and change it (attribution and same license required)
-- You cannot sell it, it would not be fair
+- You cannot sell it: it would not be fair
