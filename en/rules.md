@@ -78,15 +78,16 @@ The initial deal is the *only* time event cards are not resolved.
 
 ## Gameplay
 
-The winner of the previous game, or whoever dealt the cards this time, goes first. Play then proceeds clockwise.
+The winner of the previous game goes first (in the very first game, whoever dealt the cards). Play then proceeds clockwise.
 
 ![table example](schemas/game-process.jpg)
 
 ### Start of the turn
 
 The first thing you *must* do is draw a card from the deck.
+Before drawing, only the following are allowed: resolving events that have been lying on your table since a previous turn (see "Events"), "start of turn" social rituals (for example, from the "Manual" card), and reactions ↩️ (for example, "Cancel" against "Burnout").
 
-If a player does not draw a card from the deck as their *first action*, whoever notices it first may pull a random card out of that player's hand as a penalty. The player cannot then draw the card from the deck *retroactively*.
+If a player does not draw a card from the deck as their *first action* (not counting the things listed above), whoever notices it first may pull a random card out of that player's hand as a penalty. The player cannot then draw the card from the deck *retroactively*.
 
 *You cannot lay out a winning component* without drawing a card from the deck at the start of your turn. There might be an interesting event in there. Watch out for cheaters and punish them by pulling a card from their hand!
 
@@ -113,7 +114,7 @@ Hand limit: if you have more than *8 game cards* at the end of your turn, discar
 ## Components
 
 If you have components laid out on the table, some cards become stronger for you.
-Some card descriptions contain the ⚙️ symbol, which shows which effects are powered up if you have at least one component of any kind on the table.
+Some card descriptions contain the ⚙️ symbol, which shows which effects change (usually, get powered up) if you have at least one component of any kind on the table.
 
 For example, the "OpenSource" card lets you take from the shared pile:
 - 1 card, if you have no components on the table
@@ -128,9 +129,15 @@ Unexpected events in the IT world are only ever negative.
 
 During the initial deal, event cards in hand are exchanged for other cards.
 
-If you draw a black event card from the deck or receive one some other way (for example, via "OpenSource" with "sudo"), you play it immediately on your turn.
+If you draw an event card from the deck or receive one some other way (for example, via "OpenSource" with "sudo"), you play it immediately on your turn.
 
 If you receive an event card outside of your turn, the event card stays on the table in front of you until your turn. On your turn you must resolve it as your very first action, even before drawing a card.
+
+### Skipping a turn
+
+"Skip your turn" (events "500", "0 Day", and "Friday" with a known "Legacy") means: your current turn ends right after the event is resolved. You can't play new cards (except reactions ↩️), but the end-of-turn hand limit check happens as usual.
+Defending against "500" and "0 Day" only saves the component: the turn is still skipped.
+If the event had been lying on your table since a previous turn and you resolved it before drawing, you do not draw a card from the deck: the turn is skipped.
 
 
 ## Attack
@@ -147,7 +154,7 @@ No more than two players take part in an attack: the attacker and the defender.
 
 If you play an attack card against a player, they will have to either defend themselves or fulfill the condition written on the attack card. For example: return a component to their hand or to the discard pile, or give the component to the attacker.
 
-By the way, if you returned your component from the table to your hand, that component is under a 🚧 block: you can only play that *type of component* (for example, all "Frontend" cards) after the specified number of turns (while your engineers fix it!)
+By the way, if your component was returned from the table to your hand (by a "Bug", "500", etc.), that *type of component* (for example, all "Frontend" cards) is under a 🚧 block: you can neither lay it out on the table nor return it to the deck for cards (while your engineers fix it!). A 🚧1 block lasts until the end of your *next* turn. If the component was returned to your hand during your own turn (for example, when attacking yourself), the rest of the current turn and the whole next turn are blocked.
 
 ### Defense
 
@@ -172,9 +179,9 @@ If you did something against the rules and nobody noticed while it was being pla
 
 ## Victory
 
-If at the end of your turn you have the set of components on the table that your "Architecture" card requires, congratulations, you've won! Show your "Architecture" card to everyone else.
+If at the end of your turn you have at least the components on the table that your "Architecture" card requires (extra components don't hurt, and a "Cloud" counts as the type it is turned to), congratulations, you've won! Show your "Architecture" card to everyone else.
 
-You can keep playing until only one loser remains. Players who have won drop out and discard their cards.
+You can keep playing until only one loser remains. Players who have won drop out and return all their cards to the deck (not to the discard pile): the cards in their hand, including "Legacy", any events lying on their table, and the components from their table. The deck is then reshuffled. The "Architecture" card goes back in the box.
 The loser deals the cards next time, and the winners may call them "Junior" for the whole next game.
 
 If a game is interrupted before it ends, the official winner is the player who has the project on GitHub with the most stars.
@@ -194,7 +201,7 @@ It will help you understand the game and get through your first game quickly.
 
 There are only a few changes:
 - Always deal 5 cards at the very start
-- You can play only 3 cards per turn (including 1 component)
+- You can play only 3 cards per turn (including 1 component). Reactions ↩️ (including "sudo") and events don't count
 - No hand limit
 - All component cards always stay in the deck (don't remove the extra ones)
 
@@ -207,7 +214,7 @@ An optional rule that changes when and how "Architecture" cards are given out.
 Changes:
 - "Architecture" cards are no longer dealt randomly at the start of the game
 - Now you have to bid for "Architecture" cards
-- Before the game starts, after the black cards from the deal have been replaced, each player may return several cards to the deck, in normal turn order
+- Before the game starts, after the event cards from the deal have been replaced, each player may return several cards from their hand to the middle of the deck (not to the discard pile), in normal turn order. No replacement cards are drawn: that is the price of picking an "Architecture" earlier
 - The maximum number of cards that can be returned to the deck equals the number of players
 - Players choose "Architecture" cards from all those available, without showing their choice to others, in order from the player who returned the most cards to the player who returned the fewest
 - If two or more players returned the same number of cards, the order is resolved further: the tied players each take a free "Architecture" card, and whoever has the higher "Task" number on the card chooses first. The "Architecture" cards used for the tie-break are returned to the shared pile
