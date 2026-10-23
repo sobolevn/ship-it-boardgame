@@ -119,7 +119,7 @@ def main() -> None:
     parser.add_argument(
         "images_dir",
         type=str,  # TODO: dirname
-        help="Folder with all card types images",
+        help="Folder with images of all card types",
     )
     parsed_args = parser.parse_args()
     _create_tts_images(parsed_args.images_dir)

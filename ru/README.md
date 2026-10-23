@@ -1,6 +1,6 @@
 # What is this?
 
-This is a folder for the Russian translation of this game.
+This is a folder for the Russian version of this game.
 It is the source of truth.
 
 ## Links

@@ -1,11 +1,12 @@
 """
-Creates PDF to be printed from the inputs: cards' pdf and their counts.
+Creates a PDF to be printed from the inputs: the cards PDF and their counts.
 
-Basically it reads the input pdf with cards design
+Basically, it reads the input PDF with the card design
 and their counts from `counts.numbers`.
 
-Right now it is impossible to export PDFs from `cards.numbers` as far as I know.
-To export them:
+Right now it is impossible to export PDFs from `cards.numbers` automatically,
+as far as I know.
+To export them manually:
 1. Open `cards.numbers`
 2. Click `Export as`
 3. Select `PDF`
@@ -14,8 +15,8 @@ To export them:
 6. Done!
 """
 
-# TODO: also provide validation, that `counts.numbers`
-# has the same count as right-bottom card corner
+# TODO: also validate that `counts.numbers`
+# has the same count as the bottom-right card corner
 # TODO: validate the order of counts and cards by name?
 
 import argparse

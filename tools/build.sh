@@ -16,7 +16,7 @@ rm -rf build
 # Run validation:
 source tools/validate.sh
 
-# Just all cards types in one pdf:
+# Just all card types in one pdf:
 CARDS_PDF="$1"
 # All cards in one pdf, with correct counts, useful for printing:
 CARDS_WITH_COUNTS_PDF='build/cards-with-counts.pdf'

@@ -39,7 +39,7 @@ def main() -> None:
     parser.add_argument(
         "cards",
         type=str,  # TODO: use `filepath` type
-        help="Path to `cards.numbers` file with cards definitions",
+        help="Path to `cards.numbers` file with card definitions",
     )
     parser.add_argument(
         "counts",
