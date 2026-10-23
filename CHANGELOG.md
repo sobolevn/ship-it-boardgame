@@ -2,6 +2,8 @@
 
 ## Version 0.0.27
 
+- Updated `Cloud` legacy rule
+- Tweaked wordings
 - Tweaked a lot of rules for better readability and consistency
 - Added official support for the `en/` version
 
