@@ -7,6 +7,8 @@
 - Tweaked a lot of rules for better readability and consistency
 - Added official support for the `en/` version
 
+Printed (5 decks)!
+
 ## Version 0.0.26
 
 - Added new "hardcore" rule 🪟 to `Crutches`
