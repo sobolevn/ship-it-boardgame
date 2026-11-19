@@ -60,7 +60,7 @@ def _create_sheet(
     is_back: bool = False,
 ) -> None:
     dest_image = None
-    for image in range(TTS_FORMAT * (sheet + 1)):
+    for image in range(TTS_FORMAT):
         filename = image + TTS_FORMAT * sheet
         try:
             current_image = Image.open(
@@ -107,9 +107,10 @@ def _create_tts_images(image_dir: str) -> None:
     os.makedirs(output_dir, exist_ok=True)
 
     files_count = _count_files(image_dir)
-    for sheet in range(files_count // TTS_FORMAT + 1):
+    sheets_count = max(1, (files_count + TTS_FORMAT - 1) // TTS_FORMAT)
+    for sheet in range(sheets_count):
         _create_sheet(sheet, image_dir, files_count)
-    for sheet in range(files_count // TTS_FORMAT + 1):
+    for sheet in range(sheets_count):
         _create_sheet(sheet, image_dir, files_count, is_back=True)
 
 
