@@ -909,14 +909,14 @@ files = [
 
 [[package]]
 name = "numbers-parser"
-version = "4.22.2"
+version = "4.23.0"
 description = "Read and write Apple Numbers spreadsheets"
 optional = false
-python-versions = ">=3.10"
+python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "numbers_parser-4.22.2-py3-none-any.whl", hash = "sha256:1ef9d955cbce60bcde71f14c654c1517f7476f5e069a1fdc6ddd082104a71546"},
-    {file = "numbers_parser-4.22.2.tar.gz", hash = "sha256:7f3c41bb8da2e4c01956d5ef0d8e96ef6495491a4c4d2aac58b800c48c261195"},
+    {file = "numbers_parser-4.23.0-py3-none-any.whl", hash = "sha256:c46f2a2a87d92ca1fa81961d3d652867372c1132767ad62c9721873e4951d74e"},
+    {file = "numbers_parser-4.23.0.tar.gz", hash = "sha256:b90fa017c9f4fbb24b7741114834b00f414b14882272f241eaf44992d23816a9"},
 ]
 
 [package.dependencies]
@@ -925,7 +925,7 @@ cryptography = ">=50.0.1"
 enum-tools = ">=0.11"
 importlib-resources = ">=6.1"
 protobuf = ">=7.36.0"
-python-dateutil = ">=2.9.0.post0"
+python-dateutil = ">=4.0.0"
 python-snappy = ">=0.7"
 security = ">=1.3.1"
 setuptools = ">=70.0.0"
@@ -1131,18 +1131,18 @@ files = [
 
 [[package]]
 name = "python-dateutil"
-version = "2.9.0.post0"
+version = "4.0.0"
 description = "Extensions to the standard Python datetime module"
 optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
+python-versions = ">=3.11"
 groups = ["main"]
 files = [
-    {file = "python-dateutil-2.9.0.post0.tar.gz", hash = "sha256:37dd54208da7e1cd875388217d5e00ebd4179249f90fb72437e91a35459a0ad3"},
-    {file = "python_dateutil-2.9.0.post0-py2.py3-none-any.whl", hash = "sha256:a8b2bc7bffae282281c8140a97d3aa9c14da0b136dfe83f850eea9a5f7470427"},
+    {file = "python_dateutil-4.0.0-py3-none-any.whl", hash = "sha256:a5e246f79eb80475e691bf93862cead98decd8a498cf53ba0516fcdc0f50dc1c"},
+    {file = "python_dateutil-4.0.0.tar.gz", hash = "sha256:d7295ff14fdc0f92f662100bfb6c551d160ca090f2939f1ec5b9794265c03f06"},
 ]
 
 [package.dependencies]
-six = ">=1.5"
+tzdata = "*"
 
 [[package]]
 name = "python-snappy"
@@ -1233,18 +1233,6 @@ files = [
 sortedcontainers = ">=2.4.0,<3.0.0"
 
 [[package]]
-name = "six"
-version = "1.17.0"
-description = "Python 2 and 3 compatibility utilities"
-optional = false
-python-versions = "!=3.0.*,!=3.1.*,!=3.2.*,>=2.7"
-groups = ["main"]
-files = [
-    {file = "six-1.17.0-py2.py3-none-any.whl", hash = "sha256:4721f391ed90541fddacab5acf947aa0d3dc7d27b2e1e8eda2be8970586c3274"},
-    {file = "six-1.17.0.tar.gz", hash = "sha256:ff70335d468e7eb6ec65b95b99d3a2836546063f63acc5171de367e834932a81"},
-]
-
-[[package]]
 name = "sortedcontainers"
 version = "2.4.0"
 description = "Sorted Containers -- Sorted List, Sorted Dict, Sorted Set"
@@ -1278,6 +1266,18 @@ groups = ["main", "dev"]
 files = [
     {file = "typing_extensions-4.15.0-py3-none-any.whl", hash = "sha256:f0fa19c6845758ab08074a0cfa8b7aecb71c999ca73d62883bc25cc018c4e548"},
     {file = "typing_extensions-4.15.0.tar.gz", hash = "sha256:0cea48d173cc12fa28ecabc3b837ea3cf6f38c6d1136f85cbaaf598984861466"},
+]
+
+[[package]]
+name = "tzdata"
+version = "2026.6"
+description = "Provider of IANA time zone data"
+optional = false
+python-versions = ">=2"
+groups = ["main"]
+files = [
+    {file = "tzdata-2026.6-py2.py3-none-any.whl", hash = "sha256:0a10eec6e13ef16b627fabed9a5f2ba61a62b1c67f327305f4e7e412a70b4aec"},
+    {file = "tzdata-2026.6.tar.gz", hash = "sha256:85d2cd9c09f81f0bb29db27759fc83af4f1e620efb814f8c5bf8b4cc4feece6d"},
 ]
 
 [[package]]
