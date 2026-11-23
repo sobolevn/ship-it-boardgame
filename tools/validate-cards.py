@@ -1,6 +1,6 @@
 import argparse
 
-import numbers_parser  # type: ignore[import-untyped]
+import numbers_parser
 
 from ship_it_tools import counts, meta
 
